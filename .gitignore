@@ -1,0 +1,53 @@
+# ============================================================
+# FINOWINGS - .gitignore
+# ============================================================
+
+# ⚠️  DATABASE CREDENTIALS - NEVER commit these
+DLL/config.php
+DLL/config_admin.php
+
+# Log files
+*.log
+health_check.log
+
+# Backup files
+*.sql
+*.sql.gz
+finowings_backup*
+backups/
+
+# WordPress (अलग repo में manage करें)
+wordpress/
+
+# Local / OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temp files
+*.tmp
+*.temp
+test_zip.php
+phpinfo.php
+info.php
+
+# Node modules (admin panel)
+node_modules/
+admin/node_modules/
+
+# Compiled assets (optional - uncomment if you don't commit built files)
+# admin/dist/
+
+# PHP error logs
+php_errorlog
+error_log
+
+# Large files (GitHub 50MB limit से बड़ी files)
+*.pdf
+admin/media/dar-credit-ipo-drhp.pdf

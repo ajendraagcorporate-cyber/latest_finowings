@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <sitemap>
+        <loc>https://www.finowings.com/sitemap/sitemap_main.xml</loc>
+    </sitemap>
+
+    <sitemap>
+        <loc>https://www.finowings.com/sitemap/sitemap_courses.xml</loc>
+    </sitemap>
+
+    <sitemap>
+        <loc>https://www.finowings.com/sitemap/sitemap_ipo.php</loc>
+    </sitemap>
+
+    <sitemap>
+        <loc>https://www.finowings.com/sitemap/sitemap_blogs.php</loc>
+    </sitemap>
+
+    <sitemap>
+        <loc>https://www.finowings.com/sitemap/sitemap_academy.xml</loc>
+    </sitemap>
+
+</sitemapindex>

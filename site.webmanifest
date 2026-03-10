@@ -1,0 +1,22 @@
+{
+  "name": "Finowings",
+  "short_name": "Finowings",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#273158",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "description": "We are the Stock Market Institute in Lucknow providing Best Technical Analysis Course. Here we have come up with an excellent course on Financial Markets, and the best part of this course is that You can get the opportunity to learn with proper handholding support. This course will not only help you to understand finance but also will help you in earning stable money from various types of investments like the Stock market, Mutual Fund, commodities, and bonds. Apart from educating you on various investment options.",
+  "start_url": "https://www.finowings.com/",
+  "dir": "auto"
+}

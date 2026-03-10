@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title></title>
+  <meta name="description" content="" />
+
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:url" content="">
+  <base href="https://d3fu8elvld6rb5.cloudfront.net/courses.finowings.com/">
+  <link rel="shortcut icon" href="" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+	<link rel="canonical" href="https://www.finowings.com/stock-market-courses/" />
+
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/tailwind.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="img/mukul/coursebanners/favicon.png" type="image/x-icon">
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-WQCSH6XR');</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16766352851">
+  </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-16766352851');
+  </script>
+
+
+    <!-- Meta Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1205626913880466');
+      fbq('track', 'PageView');
+      </script>
+      <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1205626913880466&ev=PageView&noscript=1"
+      /></noscript>
+      <!-- End Meta Pixel Code -->
+	  
+
+  
+</head>
+<style>
+  .cust-shadow {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  }
+
+  .course-card {
+    transition: all 0.5s;
+  }
+
+  .course-card:hover {
+    transform: scale(1.025);
+  }
+</style>
+
+<body>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WQCSH6XR" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <header class="fixed w-full bg-[#F5F5F5] cust-shadow top-0 z-50">
+    <!-- Top Banner Marquee Slider -->
+    <!-- <div class="flex mb-1">
+          <div
+            class="flex mx-[-0.5px] animate-marquee min-w-full flex-shrink-0 bg-[#ffdb4d] flex-nowrap items-center justify-center overflow-hidden"
+          >
+            <div class="w-fit whitespace-nowrap py-1 px-3 text-14">
+              ⏰ Last Day to Enroll is Today, Hurry Up! Use the Coupon Code HAPPY
+              for the Maximum Discount ⏰
+            </div>
+            <div class="w-fit whitespace-nowrap py-1 px-3 text-14">
+              ⏰ Last Day to Enroll is Today, Hurry Up! Use the Coupon Code HAPPY
+              for the Maximum Discount ⏰
+            </div>
+            <div class="w-fit whitespace-nowrap py-1 px-3 text-14">
+              ⏰ Last Day to Enroll is Today, Hurry Up! Use the Coupon Code HAPPY
+              for the Maximum Discount ⏰
+            </div>
+          </div>
+          <div
+            class="flex animate-marquee min-w-full flex-shrink-0 bg-[#ffdb4d] flex-nowrap items-center justify-center overflow-hidden"
+          >
+            <div class="w-fit whitespace-nowrap py-1 px-3 text-14">
+              ⏰ Last Day to Enroll is Today, Hurry Up! Use the Coupon Code HAPPY
+              for the Maximum Discount ⏰
+            </div>
+          <div class="w-fit whitespace-nowrap py-1 px-3 text-14">
+             ⏰ Last Day to Enroll is Today, Hurry Up! Use the Coupon Code HAPPY
+             for the Maximum Discount ⏰
+           </div>
+           <div class="w-fit whitespace-nowrap py-1 px-3 text-14">
+             ⏰ Last Day to Enroll is Today, Hurry Up! Use the Coupon Code HAPPY
+             for the Maximum Discount ⏰
+           </div>
+         </div>
+       </div> -->
+    <nav class="flex items-center justify-between container mt-0 md:my-[12px] relative py-1 xl:py-0">
+      <div>
+        <a href="https://www.finowings.com" class="flex w-[159px] md:w-[159px] h-[28px] md:h-4">
+          <img src="img/mukul/coursebanners/logo.jpg" alt="">
+        </a>
+      </div>
+      <div class="flex items-center md:gap-[50px]">
+        <div class="nav-area">
+          <button class="hamburger relative z-[999]">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul class="md:flex items-center">
+            <!-- <li class="mb-0 mr-[56px]">
+              <a class="nav-link text-[#2A3439] font-semibold" href="">Other Offerings</a>
+            </li> -->
+            <li class="mb-0 mr-[56px]">
+              <a class="nav-link text-[#2A3439] font-semibold" href="http://courses.finowings.com/course-payment/18/recorded">Fundamental Analysis</a>
+            </li>
+            <li class="mb-0 mr-[56px]">
+              <a class="nav-link text-[#2A3439] font-semibold" href="https://courses.finowings.com/course-payment/85/live">Technical Analysis</a>
+            </li>
+			 <li class="mb-0">
+              <a class="nav-link text-[#2A3439] font-semibold" href="http://courses.finowings.com/course-payment/19/recorded">Options Trading</a>
+            </li>
+            <li class="mb-0 button-wrapper inline-block md:hidden">
+              <a href="https://www.finowings.com/contact-us.php"
+                class="button py-[12px] px-[24px] bg-[#4566AD] min-w-[166px] rounded-[32px] inline-block text-white text-16 leading-[1.5]">
+                <div class="relative overflow-hidden">
+                  <span class="button-content">Contact Us</span>
+                  <span class="button-content-hover">Contact Us</span>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="mb-0 button-wrapper hidden lg:inline-block">
+          <a href="https://www.finowings.com/contact-us.php"
+            class="button py-[12px] px-[24px] bg-[#4566AD] min-w-[166px] rounded-[32px] inline-block text-white text-16 leading-[1.5]">
+            <div class="relative overflow-hidden">
+              <span class="button-content">Contact Us</span>
+              <span class="button-content-hover">Contact Us</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- <section
+        class="pb-0 pt-[110px] lg:pt-[180px] md:pb-[120px] relative overflow-hidden"
+      >
+        <div class="container">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-[50px] items-center">
+            <div class="w-full md:text-left text-center">
+              <h1
+                class="text-[#2A3439] text-[40px] md:text-[59px] leading-[1.1] tracking-[-2px] font-semibold max-w-[735px]"
+              >
+              Learn Interior Design with Coloraza
+              </h1>
+              <p
+                class="max-w-[600px] text-base2.5 font-medium md:font-semibold md:text-18 md:leading-[1.4] text-[#2A3439]/80 mt-2 mb-3"
+              >
+              Learn the fundamentals of Interior Designing through these inclusive courses curated to empower your journey in transforming spaces
+              </p>
+              <div class="flex gap-2 md:gap-[20px] md:flex-row flex-col">
+                <div class="max-w-full md:w-fit">
+                  <a href="#course">
+                    <button
+                      type="button"
+                      class="button rounded-[10px] py-[16px] md:py-[19px] px-[10px] md:px-[38px] bg-primary w-full inline-block text-white text-16 leading-none"
+                    >
+                      <div class="relative overflow-hidden">
+                        <span class="button-content">Explore Courses</span>
+                        <span class="button-content-hover">Explore Courses</span>
+                      </div>
+                    </button>
+                  </a>
+                </div>
+                <div class="max-w-full md:max-w-[190px]">
+                  <button
+                    type="button"
+                    class="button rounded-[10px] py-[16px] md:py-[19px] px-[10px] md:px-[38px] bg-white/10 w-full inline-block text-white text-16 leading-none"
+                  >
+                    <div class="relative overflow-hidden">
+                      <span class="button-content">Book a Call</span>
+                      <span class="button-content-hover">Book a Call</span>
+                    </div>
+                  </button>
+                </div>
+              </div>
+              <div class="flex md:flex-col flex-col-reverse">
+                <div
+                  class="flex items-center md:flex-row flex-col gap-3 md:gap-0 mt-3 md:mt-[67px]"
+                >
+                  <div class="pr-[23px] md:border-r md:border-[#f5f5f5]">
+                    <div class="flex items-center">
+                      <img
+                        src="img/onyx/worldwide-students.png"
+                        alt="worldwide-students"
+                        width="120"
+                        height="48"
+                        loading="lazy"
+                        class=""
+                      />
+                      <div class="flex flex-col ml-[12px]">
+                        <div
+                          class="text-[#2A3439] font-semibold text-18 leading-none"
+                        >
+                          1,050+
+                        </div>
+                        <div
+                          class="text-[#2A3439]/[0.36] text-14 leading-none font-medium"
+                        >
+                          Students Worldwide
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pl-[23px]">
+                    <div class="flex flex-col">
+                      <div class="text-[#2A3439] font-semibold text-18 leading-none">
+                        4.6
+                      </div>
+  
+                      <img
+                        src="img/onyx/4-6star.svg"
+                        alt="worldwide-students"
+                        width="92"
+                        height="20"
+                        loading="lazy"
+                        class="mt-[1px]"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <img
+                src="img/onyx/landing page photo 1.jpg"
+                alt="hero-img"
+                loading="lazy"
+                width="335"
+                height="335"
+                class="w-full md:max-w-[510px] rounded-2xl cust-shadow"
+              />
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+    <!-- <section class="bg-white overflow-hidden py-5 md:py-[80px]">
+        <div class="container">
+          <div
+            class="text-base font-semibold md:text-18 text-black text-center mb-[40px]"
+          >
+            Featured&nbsp;in
+          </div>
+          <div
+            class="grid grid-cols-2 justify-items-center gap-3 md:gap-[95px] items-center max-w-[600px] mx-auto"
+          >
+            <div class="">
+              <img
+                src="https://d3fu8elvld6rb5.cloudfront.net/realign.in/img/exhibitionist/HoB - Logo - New-02.png"
+                loading="lazy"
+                class=""
+                alt="enterpreneur"
+                style="filter: invert(1);"
+              />
+            </div>
+            <div class="">
+              <img
+                src="img/onyx/trends.jpg"
+                loading="lazy"
+                class=""
+                alt="the-ken"
+              />
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+    <!-- <section
+        class="bg-white py-5 md:py-[80px] scrollspy-section"
+      >
+        <div class="container text-white">
+          <h2
+            class="text-xl font-bold md:text-4.8xl text-center mb-2 text-[#2A3439]"
+          >
+            I can help you with
+          </h2>
+          <div
+            class="text-base2.5 text-center text-[#2A3439]/60 max-w-[610px] mx-auto"
+          >
+            Join our Masterclass Courses for Finance and Stocks and take a
+            decisive step towards achieving your financial goals.
+          </div>
+          <div
+            class="grid mt-4 md:mt-6 grid-cols-2 md:grid-cols-3 gap-2 md:gap-[20px]"
+          >
+            <div
+              class="py-3 md:py-[40px] cust-shadow text-center rounded-2xl"
+            >
+              <img
+                src="img/onyx/tips-and-tricks.png"
+                alt="manage-finance"
+                loading="lazy"
+                width="88"
+                height="88"
+                class="md:w-[88px] w-6 h-6 md:h-[88px] mb-[12px] md:mb-3 mx-auto"
+              />
+              <p
+                class="text-14 md:text-24 leading-none mb-0 font-medium tracking-[-0.5px] text-[#2A3439] px-2"
+              >
+              Interior Design Tips and Tricks
+              </p>
+            </div>
+            <div
+              class="py-3 md:py-[40px] cust-shadow text-center rounded-2xl"
+            >
+              <img
+                src="img/onyx/staircase.png"
+                alt="investments"
+                loading="lazy"
+                width="96"
+                height="88"
+                class="md:w-[88px] w-6 h-6 md:h-[88px] mb-[12px] md:mb-3 mx-auto"
+              />
+              <p
+                class="text-14 md:text-24 leading-none mb-0 font-medium tracking-[-0.5px] text-[#2A3439] px-2"
+              >
+              How To Start Your Career In Interior Design
+              </p>
+            </div>
+            <div
+              class="py-3 md:py-[40px] cust-shadow text-center rounded-2xl"
+            >
+              <img
+                src="img/onyx/livingroom.png"
+                alt="effective-tools"
+                loading="lazy"
+                width="96"
+                height="88"
+                class="md:w-[88px] w-6 h-6 md:h-[88px] mb-[12px] md:mb-3 mx-auto"
+              />
+              <p
+                class="text-14 md:text-24 leading-none mb-0 font-medium tracking-[-0.5px] text-[#2A3439] px-2"
+              >
+              Space Saving
+              </p>
+            </div>
+            <div
+              class="py-3 md:py-[40px] cust-shadow text-center rounded-2xl"
+            >
+              <img
+                src="img/onyx/blueprint.png"
+                alt="asset-allocation"
+                loading="lazy"
+                width="96"
+                height="88"
+                class="md:w-[88px] w-6 h-6 md:h-[88px] mb-[12px] md:mb-3 mx-auto"
+              />
+              <p
+                class="text-14 md:text-24 leading-none mb-0 font-medium tracking-[-0.5px] text-[#2A3439] px-2"
+              >
+              Budget Friendly Designs
+              </p>
+            </div>
+            <div
+              class="py-3 md:py-[40px] cust-shadow text-center rounded-2xl"
+            >
+              <img
+                src="img/onyx/content.png"
+                alt="debt-investing"
+                loading="lazy"
+                width="96"
+                height="88"
+                class="md:w-[88px] w-6 h-6 md:h-[88px] mb-[12px] md:mb-3 mx-auto"
+              />
+              <p
+                class="text-14 md:text-24 leading-none mb-0 font-medium tracking-[-0.5px] text-[#2A3439] px-2"
+              >
+              Using Social Media To Grow Business
+              </p>
+            </div>
+            <div
+              class="py-3 md:py-[40px] cust-shadow text-center rounded-2xl"
+            >
+              <img
+                src="img/onyx/achivements.png"
+                alt="tax-planning-tool"
+                loading="lazy"
+                width="96"
+                height="88"
+                class="md:w-[88px] w-6 h-6 md:h-[88px] mb-[12px] md:mb-3 mx-auto"
+              />
+              <p
+                class="text-14 md:text-24 leading-none mb-0 font-medium tracking-[-0.5px] text-[#2A3439] px-2"
+              >
+              Manifesting Your Dream Career in Interior Design
+              </p>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+    <section class="pb-[60px] md:pb-[100px] pt-[90px] md:pt-[120px]" id="course">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="text-xl md:text-4.8xl text-[#2A3439]">Explore Courses</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-[25px] mt-3 md:mt-6">
+          <!-- <div
+            class="p-[10px] md:p-2 rounded-3xl bg-[#F5F5F5] border cust-shadow flex flex-col gap-2 justify-between course-card">
+            <div class="flex flex-col justify-between gap-2 md:gap-[20px]">
+              <img src="img/mukul/coursebanners/tech live-new.png" class="rounded-2xl" alt="">
+              <div class="text-20 leading-[1.16] font-bold text-[#2A3439]">
+                Master the Art of Technical Analysis
+              </div>
+
+            </div>
+            <div class="mt-1 flex flex-col gap-2">
+              <div class="text-20 leading-[1.75] md:leading-[1.16] font-extrabold text-[#2A3439]">
+                <span class="price1"></span> <span class="line-through font-normal cutprice1"></span>
+              </div>
+              <a href="http://courses.finowings.com/technical-analysis-course-live">
+                <button type="button"
+                  class="button rounded-2xl py-[16px] px-[10px] md:px-[38px] bg-[#4566AD] w-full inline-block text-white text-18 md:text-20 ">
+                  <div class="relative overflow-hidden">
+                    <span class="button-content">Know More</span>
+                    <span class="button-content-hover">Know More</span>
+                  </div>
+                </button>
+              </a>
+            </div>
+          </div> -->
+        <!-- <div
+          class="p-[10px] md:p-2 rounded-3xl bg-[#F5F5F5] border cust-shadow flex flex-col gap-2 justify-between course-card">
+          <div class="flex flex-col justify-between gap-2 md:gap-[20px]">
+            <img src="img/thumnails/Utrun-thumbnail.webp" class="rounded-2xl" alt="">
+            <div class="text-20 leading-[1.16] font-bold text-[#2A3439]">
+              The U-Turn Intraday Strategy
+            </div>
+
+          </div>
+          <div class="mt-1 flex flex-col gap-2">
+            <div class="text-20 leading-[1.75] md:leading-[1.16] font-extrabold text-[#2A3439]">
+              <span class="">₹59</span> <span class="line-through font-normal">₹1,999</span>
+            </div>
+            <a href="https://com.rpy.club/cp/3kjw7h4z6V">
+              <button type="button"
+                class="button rounded-2xl py-[16px] px-[10px] md:px-[38px] bg-[#4566AD] w-full inline-block text-white text-18 md:text-20 ">
+                <div class="relative overflow-hidden">
+                  <span class="button-content">Know More</span>
+                  <span class="button-content-hover">Know More</span>
+                </div>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div
+          class="p-[10px] md:p-2 rounded-3xl bg-[#F5F5F5] border cust-shadow flex flex-col gap-2 justify-between course-card">
+          <div class="flex flex-col justify-between gap-2 md:gap-[20px]">
+            <img src="img/thumnails/Order-block-thumbnail.webp" class="rounded-2xl" alt="">
+            <div class="text-20 leading-[1.16] font-bold text-[#2A3439]">
+              Order Block Intraday & Swing Trading Strategy
+            </div>
+
+          </div>
+          <div class="mt-1 flex flex-col gap-2">
+            <div class="text-20 leading-[1.75] md:leading-[1.16] font-extrabold text-[#2A3439]">
+              <span class="">₹59</span> <span class="line-through font-normal">₹1,999</span>
+            </div>
+            <a href="https://com.rpy.club/cp/qAoSffgLsW">
+              <button type="button"
+                class="button rounded-2xl py-[16px] px-[10px] md:px-[38px] bg-[#4566AD] w-full inline-block text-white text-18 md:text-20 ">
+                <div class="relative overflow-hidden">
+                  <span class="button-content">Know More</span>
+                  <span class="button-content-hover">Know More</span>
+                </div>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div
+          class="p-[10px] md:p-2 rounded-3xl bg-[#F5F5F5] border cust-shadow flex flex-col gap-2 justify-between course-card">
+          <div class="flex flex-col justify-between gap-2 md:gap-[20px]">
+            <img src="img/thumnails/buildup-thumbnail.webp" class="rounded-2xl" alt="">
+            <div class="text-20 leading-[1.16] font-bold text-[#2A3439]">
+              Buildup Breakup Intraday & Swing Strategy
+            </div>
+
+          </div>
+          <div class="mt-1 flex flex-col gap-2">
+            <div class="text-20 leading-[1.75] md:leading-[1.16] font-extrabold text-[#2A3439]">
+              <span class="">₹59</span> <span class="line-through font-normal">₹1,999</span>
+            </div>
+            <a href="https://com.rpy.club/cp/1cOPsEQAWt">
+              <button type="button"
+                class="button rounded-2xl py-[16px] px-[10px] md:px-[38px] bg-[#4566AD] w-full inline-block text-white text-18 md:text-20 ">
+                <div class="relative overflow-hidden">
+                  <span class="button-content">Know More</span>
+                  <span class="button-content-hover">Know More</span>
+                </div>
+              </button>
+            </a>
+          </div>
+        </div> -->
+          <div
+            class="p-[10px] md:p-2 rounded-3xl bg-[#F5F5F5] border cust-shadow flex flex-col gap-2 justify-between course-card">
+            <div class="flex flex-col justify-between gap-2 md:gap-[20px]">
+              <img src="https://www.finowings.com/stock-market-courses/img/thumb/commodity-trading-master-class.webp" alt="">
+              <div class="text-20 leading-[1.16] font-bold text-[#2A3439]">
+                Commodity Trading Master Class
+              </div>
+
+            </div>
+            <div class="mt-1 flex flex-col gap-2">
+              <div class="text-20 leading-[1.75] md:leading-[1.16] font-extrabold text-[#2A3439]">
+                <span class="price10"></span> <span class="line-through font-normal cutprice10"></span>
+              </div>
+              <a href="https://www.finowings.com/stock-market-courses/commodity-trading-masterclass.html">
+                <button type="button"
+                  class="button rounded-2xl py-[16px] px-[10px] md:px-[38px] bg-[#4566AD] w-full inline-block text-white text-18 md:text-20 ">
+                  <div class="relative overflow-hidden">
+                    <span class="button-content">Know More</span>
+                    <span class="button-content-hover">Know More</span>
+                  </div>
+                </button>
+              </a>
+            </div>
+          </div>
+          <div
+            class="p-[10px] md:p-2 rounded-3xl bg-[#F5F5F5] border cust-shadow flex flex-col gap-2 justify-between course-card">
+            <div class="flex flex-col justify-between gap-2 md:gap-[20px]">
+              <img src="https://www.finowings.com/stock-market-courses/img/thumb/stock-market-crash-course.webp" alt="">
+              <div class="text-20 leading-[1.16] font-bold text-[#2A3439]">
+                Stock Market Crash Course - 6 Winning Strategies, 15 Years Proven
+              </div>
+
+            </div>
+            <div class="mt-1 flex flex-col gap-2">
+              <div class="text-20 leading-[1.75] md:leading-[1.16] font-extrabold text-[#2A3439]">
+                <span class="price11"></span> <span class="line-through font-normal cutprice11"></span>
+              </div>
+              <a href="https://www.finowings.com/stock-market-courses/market-mastery-trading-strategy-course.html">
+                <button type="button"
+                  class="button rounded-2xl py-[16px] px-[10px] md:px-[38px] bg-[#4566AD] w-full inline-block text-white text-18 md:text-20 ">
+                  <div class="relative overflow-hidden">
+                    <span class="button-content">Know More</span>
+                    <span class="button-content-hover">Know More</span>
+                  </div>
+                </button>
+              </a>
+            </div>
+          </div>
+          <div
+            class="p-[10px] md:p-2 rounded-3xl bg-[#F5F5F5] border cust-shadow flex flex-col gap-2 justify-between course-card">
+            <div class="flex flex-col justify-between gap-2 md:gap-[20px]">
+              <img src="https://www.finowings.com/stock-market-courses/img/thumb/technical-live-class-250825.webp" alt="">
+              <div class="text-20 leading-[1.16] font-bold text-[#2A3439]">
+                Unlock the power of technical Analysis trading
+              </div>
+
+            </div>
+            <div class="mt-1 flex flex-col gap-2">
+              <div class="text-20 leading-[1.75] md:leading-[1.16] font-extrabold text-[#2A3439]">
+                <span>₹17,999</span> <span class="line-through font-normal">₹22,999</span>
+              </div>
+              <a href="https://www.finowings.com/stock-market-courses/technical-analysis-course-recorded.html">
+                <button type="button"
+                  class="button rounded-2xl py-[16px] px-[10px] md:px-[38px] bg-[#4566AD] w-full inline-block text-white text-18 md:text-20 ">
+                  <div class="relative overflow-hidden">
+                    <span class="button-content">Know More</span>
+                    <span class="button-content-hover">Know More</span>
+                  </div>
+                </button>
+              </a>
+            </div>
+          </div>
+          <div
+            class="p-[10px] md:p-2 rounded-3xl bg-[#F5F5F5] border cust-shadow flex flex-col gap-2 justify-between course-card">
+            <div class="flex flex-col justify-between gap-2 md:gap-[20px]">
+              <img src="https://www.finowings.com/stock-market-courses/img/thumb/complete-option-trading-master.webp" alt="">
+              <div class="text-20 leading-[1.16] font-bold text-[#2A3439]">
+                Unlock the potential of options
+              </div>
+
+            </div>
+            <div class="mt-1 flex flex-col gap-2">
+              <div class="text-20 leading-[1.75] md:leading-[1.16] font-extrabold text-[#2A3439]">
+                <span class="price3"></span> <span class="line-through font-normal cutprice3"></span>
+              </div>
+              <a href="https://www.finowings.com/stock-market-courses/complete-option-trading.html">
+                <button type="button"
+                  class="button rounded-2xl py-[16px] px-[10px] md:px-[38px] bg-[#4566AD] w-full inline-block text-white text-18 md:text-20 ">
+                  <div class="relative overflow-hidden">
+                    <span class="button-content">Know More</span>
+                    <span class="button-content-hover">Know More</span>
+                  </div>
+                </button>
+              </a>
+            </div>
+          </div>
+          <div
+            class="p-[10px] md:p-2 rounded-3xl bg-[#F5F5F5] border cust-shadow flex flex-col gap-2 justify-between course-card">
+            <div class="flex flex-col justify-between gap-2 md:gap-[20px]">
+              <img src="https://www.finowings.com/stock-market-courses/img/thumb/complete-fundamental-analysis.webp" alt="">
+              <div class="text-20 leading-[1.16] font-bold text-[#2A3439]">
+                Master the essentials of investing
+              </div>
+
+            </div>
+            <div class="mt-1 flex flex-col gap-2">
+              <div class="text-20 leading-[1.75] md:leading-[1.16] font-extrabold text-[#2A3439]">
+                <span class="price4"></span> <span class="line-through font-normal cutprice4"></span>
+              </div>
+              <a href="https://www.finowings.com/stock-market-courses/complete-fundamental-technical-analysis.html">
+                <button type="button"
+                  class="button rounded-2xl py-[16px] px-[10px] md:px-[38px] bg-[#4566AD] w-full inline-block text-white text-18 md:text-20 ">
+                  <div class="relative overflow-hidden">
+                    <span class="button-content">Know More</span>
+                    <span class="button-content-hover">Know More</span>
+                  </div>
+                </button>
+              </a>
+            </div>
+          </div>
+          <div
+            class="p-[10px] md:p-2 rounded-3xl bg-[#F5F5F5] border cust-shadow flex flex-col gap-2 justify-between course-card  w-full mx-auto">
+            <div class="flex flex-col justify-between gap-2 md:gap-[20px]">
+              <img src="" class="rounded-2xl banner9" alt="">
+              <div class="text-20 leading-[1.16] font-bold text-[#2A3439]">
+                Exclusive Playlist only for Premium Members
+              </div>
+
+            </div>
+            <div class="mt-1 flex flex-col gap-2">
+              <div class="text-20 leading-[1.75] md:leading-[1.16] font-extrabold text-[#2A3439] price9">
+
+              </div>
+              <a href="https://www.finowings.com/stock-market-courses/youtube-membership.html">
+                <button type="button"
+                  class="button rounded-2xl py-[16px] px-[10px] md:px-[38px] bg-[#4566AD] w-full inline-block text-white text-18 md:text-20 ">
+                  <div class="relative overflow-hidden">
+                    <span class="button-content">Register Now</span>
+                    <span class="button-content-hover">Register Now</span>
+                  </div>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pb-[60px] md:pb-[100px]" id="course">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="text-xl md:text-4.8xl text-[#2A3439]">Explore Combo Offers</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-[25px] mt-3 md:mt-6">
+          <div
+            class="p-[10px] md:p-2 rounded-3xl bg-[#F5F5F5] border cust-shadow flex flex-col gap-2 justify-between course-card">
+            <div class="flex flex-col justify-between gap-2 md:gap-[20px]">
+              <img src="https://www.finowings.com/stock-market-courses/img/thumb/fundamental-technical-analysis.webp" alt="">
+              <div class="text-20 leading-[1.16] font-bold text-[#2A3439]">
+                Combo of Fundamental Analysis and Technical Analysis – Recorded
+              </div>
+
+            </div>
+            <div class="mt-1 flex flex-col gap-2">
+              <div class="text-20 leading-[1.75] md:leading-[1.16] font-extrabold text-[#2A3439]">
+                <span>₹14,999</span> <span class="line-through font-normal">₹17,999</span>
+              </div>
+              <a href="https://www.finowings.com/stock-market-courses/technical-analysis-and-fundament-analysis.html">
+                <button type="button"
+                  class="button rounded-2xl py-[16px] px-[10px] md:px-[38px] bg-[#4566AD] w-full inline-block text-white text-18 md:text-20 ">
+                  <div class="relative overflow-hidden">
+                    <span class="button-content">Know More</span>
+                    <span class="button-content-hover">Know More</span>
+                  </div>
+                </button>
+              </a>
+            </div>
+          </div>
+          <div
+            class="p-[10px] md:p-2 rounded-3xl bg-[#F5F5F5] border cust-shadow flex flex-col gap-2 justify-between course-card">
+            <div class="flex flex-col justify-between gap-2 md:gap-[20px]">
+              <img src="https://www.finowings.com/stock-market-courses/img/thumb/technical-option-analysis.webp" alt="">
+              <div class="text-20 leading-[1.16] font-bold text-[#2A3439]">
+                Combo of Technical Analysis and Option Trading – Recorded
+              </div>
+
+            </div>
+            <div class="mt-1 flex flex-col gap-2">
+              <div class="text-20 leading-[1.75] md:leading-[1.16] font-extrabold text-[#2A3439]">
+                <span>₹11,999</span> <span class="line-through font-normal">₹14,999</span>
+              </div>
+              <a href="https://www.finowings.com/stock-market-courses/technical-analysis-and-options-trading.html">
+                <button type="button"
+                  class="button rounded-2xl py-[16px] px-[10px] md:px-[38px] bg-[#4566AD] w-full inline-block text-white text-18 md:text-20 ">
+                  <div class="relative overflow-hidden">
+                    <span class="button-content">Know More</span>
+                    <span class="button-content-hover">Know More</span>
+                  </div>
+                </button>
+              </a>
+            </div>
+          </div>
+          <div
+            class="p-[10px] md:p-2 rounded-3xl bg-[#F5F5F5] border cust-shadow flex flex-col gap-2 justify-between course-card">
+            <div class="flex flex-col justify-between gap-2 md:gap-[20px]">
+              <img src="https://www.finowings.com/stock-market-courses/img/thumb/fundamental-option-analysis.webp" alt="">
+              <div class="text-20 leading-[1.16] font-bold text-[#2A3439]">
+                Combo of Fundamental Analysis and Option Trading – Recorded
+              </div>
+
+            </div>
+            <div class="mt-1 flex flex-col gap-2">
+              <div class="text-20 leading-[1.75] md:leading-[1.16] font-extrabold text-[#2A3439]">
+                <span class="price7"></span> <span class="line-through font-normal cutprice7"></span>
+              </div>
+              <a href="https://www.finowings.com/stock-market-courses/fundamental-analysis-and-options-course.html">
+                <button type="button"
+                  class="button rounded-2xl py-[16px] px-[10px] md:px-[38px] bg-[#4566AD] w-full inline-block text-white text-18 md:text-20 ">
+                  <div class="relative overflow-hidden">
+                    <span class="button-content">Know More</span>
+                    <span class="button-content-hover">Know More</span>
+                  </div>
+                </button>
+              </a>
+            </div>
+          </div>
+          <div
+            class="p-[10px] md:p-2 rounded-3xl bg-[#F5F5F5] border cust-shadow flex flex-col gap-2 justify-between course-card">
+            <div class="flex flex-col justify-between gap-2 md:gap-[20px]">
+              <img src="https://www.finowings.com/stock-market-courses/img/thumb/fundamental-technical-option-trading.webp" alt="">
+              <div class="text-20 leading-[1.16] font-bold text-[#2A3439]">
+                Special Combo of Fundamental Analysis, Technical Analysis and Options Trading – Recorded
+              </div>
+
+            </div>
+            <div class="mt-1 flex flex-col gap-2">
+              <div class="text-20 leading-[1.75] md:leading-[1.16] font-extrabold text-[#2A3439]">
+                <span>₹19,999</span> <span class="line-through font-normal">₹22,999</span>
+              </div>
+              <a href="https://www.finowings.com/stock-market-courses/technical-analysis-fundamental-analysis-and-options-class.html">
+                <button type="button"
+                  class="button rounded-2xl py-[16px] px-[10px] md:px-[38px] bg-[#4566AD] w-full inline-block text-white text-18 md:text-20 ">
+                  <div class="relative overflow-hidden">
+                    <span class="button-content">Know More</span>
+                    <span class="button-content-hover">Know More</span>
+                  </div>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="py-5 md:py-[80px]" id="workshop">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="text-xl md:text-4.8xl text-[#2A3439]">Other Offerings</h2>
+  
+        </div>
+        grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-[25px]
+        <div class=" mt-3 md:mt-6">
+          <div
+            class="p-[10px] md:p-2 rounded-3xl bg-[#F5F5F5] border cust-shadow flex flex-col gap-2 justify-between course-card md:w-[40%] w-full mx-auto">
+            <div class="flex flex-col justify-between gap-2 md:gap-[20px]">
+              <img src="img/mukul/coursebanners/elite-premium-membership.png" class="rounded-2xl" alt="">
+              <div class="text-20 leading-[1.16] font-bold text-[#2A3439]">
+                Exclusive Playlist only for Premium Members
+              </div>
+
+            </div>
+            <div class="mt-1 flex flex-col gap-2">
+              <div class="text-20 leading-[1.75] md:leading-[1.16] font-extrabold text-[#2A3439]">
+                  ₹1,099
+                </div>
+              <a href="http://courses.finowings.com/youtube-membership">
+                <button type="button"
+                  class="button rounded-2xl py-[16px] px-[10px] md:px-[38px] bg-[#4566AD] w-full inline-block text-white text-18 md:text-20 ">
+                  <div class="relative overflow-hidden">
+                    <span class="button-content">Register Now</span>
+                    <span class="button-content-hover">Register Now</span>
+                  </div>
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="p-[10px] md:p-2 rounded-3xl bg-[#F5F5F5] border cust-shadow flex flex-col gap-2 justify-between course-card">
+              <div class="flex flex-col justify-between gap-2 md:gap-[20px]">
+                <img src="img/thumnails/6.jpg" class="rounded-2xl" alt="">
+                <div class="text-20 leading-[1.16] font-bold text-[#2A3439]">
+                  Power of Manifestations
+                </div>
+                
+              </div>
+              <div class="mt-1 flex flex-col gap-2">
+                <div class="text-20 leading-[1.75] md:leading-[1.16] font-extrabold text-[#2A3439]">
+                  ₹599
+                </div>
+                <a href="https://rpy.club/courses/WZKyVjJgve">
+                  <button type="button"
+                    class="button rounded-2xl py-[16px] px-[10px] md:px-[38px] bg-[#d29eaa] w-full inline-block text-white text-18 md:text-20 ">
+                    <div class="relative overflow-hidden">
+                      <span class="button-content">Register Now</span>
+                      <span class="button-content-hover">Register Now</span>
+                    </div>
+                  </button>
+                </a>
+              </div>
+            </div>
+            <div class="p-[10px] md:p-2 rounded-3xl bg-[#F5F5F5] border cust-shadow flex flex-col gap-2 justify-between course-card">
+              <div class="flex flex-col justify-between gap-2 md:gap-[20px]">
+                <img src="img/thumnails/7.jpg" class="rounded-2xl" alt="">
+                <div class="text-20 leading-[1.16] font-bold text-[#2A3439]">
+                  Budget-friendly Interior Design
+                </div>
+                
+              </div>
+              <div class="mt-1 flex flex-col gap-2">
+                <div class="text-20 leading-[1.75] md:leading-[1.16] font-extrabold text-[#2A3439]">
+                  ₹1,599
+                </div>
+                <a href="https://rpy.club/courses/ZFu9VM0G7k">
+                  <button type="button"
+                    class="button rounded-2xl py-[16px] px-[10px] md:px-[38px] bg-[#92aec3] w-full inline-block text-white text-18 md:text-20 ">
+                    <div class="relative overflow-hidden">
+                      <span class="button-content">Register Now</span>
+                      <span class="button-content-hover">Register Now</span>
+                    </div>
+                  </button>
+                </a>
+              </div>
+            </div>
+
+        </div>
+      </div>
+
+    </section> -->
+
+
+    <section class="py-5 md:py-[80px]">
+      <div class="container">
+        <div class="text-[#2A3439] text-center mb-6 md:mb-[84px]">
+          <h2 class="mb-2 text-xl md:text-4.8xl">Hear from my students</h2>
+          <!-- <div class="opacity-60 max-w-[610px] mx-auto text-base2.5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Pellentesque sit amet sem blandit, suscipit lectus ac, molestie
+              magna.
+            </div> -->
+        </div>
+        <div class="">
+          <div class="testimonial-slider py-2">
+            <div class="item">
+              <div
+                class="bg-[#f5f5f5] cust-shadow px-[16px] md:px-[40px] pt-3 md:pt-5 pb-3 md:pb-5 flex flex-col justify-between rounded-3xl"
+                style="height: 100%;">
+                <img src="img/mukul/quote.png" class="mb-3 mx-auto w-[32px] h-[32px]" alt="">
+                <div class="text-[#2A3439] text-base2.5 md:leading-[1.5] font-normal italic">
+                  I really appreciate the guidance you have been providing. I would love to meet you. You're my idol so
+                  whenever you come
+                  to Gujarat pls let me know I would like to host you for dinner.
+                </div>
+                <div class="mt-3 md:mt-[40px] flex justify-between gap-3">
+
+
+                  <img src="img/mukul/star.png" alt="">
+                  <div class="text-base2.5 leading-none tracking-[-0.5px] font-semibold">
+                    Abhinav Gupta
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div
+                class="bg-[#f5f5f5] cust-shadow px-[16px] md:px-[40px] pt-3 md:pt-5 pb-3 md:pb-5 flex flex-col justify-between rounded-3xl"
+                style="height: 100%;">
+                <img src="img/mukul/quote.png" class="mb-3 mx-auto w-[32px] h-[32px]" alt="">
+                <div class="text-[#2A3439] text-base2.5 md:leading-[1.5] font-normal italic">
+                  One of the standout qualities of this company is their exceptional team of financial experts who
+                  possess extensive
+                  knowledge and a deep understanding of the intricacies of the stock market
+                </div>
+                <div class="mt-3 md:mt-[40px] flex justify-between gap-3">
+
+
+                  <img src="img/mukul/star.png" alt="">
+                  <div class="text-base2.5 leading-none tracking-[-0.5px] font-semibold">
+                    Abhishek Tiwari
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div
+                class="bg-[#f5f5f5] cust-shadow px-[16px] md:px-[40px] pt-3 md:pt-5 pb-3 md:pb-5 flex flex-col justify-between rounded-3xl"
+                style="height: 100%;">
+                <img src="img/mukul/quote.png" class="mb-3 mx-auto w-[32px] h-[32px]" alt="">
+                <div class="text-[#2A3439] text-base2.5 md:leading-[1.5] font-normal italic">
+                  It was very good experience in this academy...Mukul sir is a good teacher and teaches very well ....
+                </div>
+                <div class="mt-3 md:mt-[40px] flex justify-between gap-3">
+
+
+                  <img src="img/mukul/star.png" alt="">
+                  <div class="text-base2.5 leading-none tracking-[-0.5px] font-semibold">
+                    Aarti Kashyap
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="item">
+                <div
+                  class="bg-[#f5f5f5] cust-shadow px-[16px] md:px-[40px] pt-3 md:pt-5 pb-3 md:pb-5 flex flex-col justify-between rounded-3xl"
+                  style="height: 100%;"
+                >
+                  <div
+                    class="text-[#2A3439] text-base2.5 md:leading-[1.5] font-semibold"
+                  >
+                  This course is a game-changer for anyone looking to design their dream kitchen! From the basics of planning and zoning to the intricate details of choosing the right materials, hardware, and accessories, it covers everything you need to know. The step-by-step guidance and practical insights have given me the confidence to tackle my kitchen renovation project with ease and creativity. Highly recommended for anyone passionate about creating beautiful and functional kitchen spaces!
+                  </div>
+                  <div class="mt-3 md:mt-[40px] flex items-center gap-3">
+                    <img src="img/onyx/student-img.webp" alt="student-img" />
+                    <div class="flex flex-col text-[#2A3439] gap-1">
+                      <div
+                        class="text-base2.5 leading-none tracking-[-0.5px] font-semibold"
+                      >
+                      Aishwarya Khanna
+                      </div>
+                      <div
+                        class="text-[14px]"
+                      >
+                      Homeowner and Kitchen Design Enthusiast
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pb-5 md:pb-[80px]" id="contact">
+      <div class="container">
+        <div class="text-[#2A3439] text-center ">
+          <h2 class="mb-4 text-xl md:text-4.8xl">Get in Touch with me</h2>
+          <!-- <div class="opacity-60 max-w-[610px] mx-auto text-base2.5">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Pellentesque sit amet sem blandit, suscipit lectus ac, molestie
+                    magna.
+                  </div> -->
+        </div>
+        <div class="flex md:flex-row flex-col justify-between gap-2">
+          <div class="md:w-[30%] w-full mx-auto mt-2">
+            <div class="flex items-center gap-1 pb-2 mb-2 border-b border-black/20">
+              <img src="img/mukul/home-button.png" class="w-[42px] h-[42px]" alt="">
+              <div class="text-[#2A3439] md:text-16 text-14 !font-bold  font-normal">
+                C-1, Bank of Baroda, Sector-M, Mama Chauraha, Kursi Road, Lucknow
+
+              </div>
+            </div>
+            <div class="flex items-center gap-1 pb-2 mb-2 border-b border-black/20">
+              <img src="img/mukul/mobile.png" class="w-[42px] h-[42px]" alt="">
+              <div class="text-[#2A3439] md:text-16 text-14 !font-bold  font-normal">
+                +91-970-8094-321
+              </div>
+            </div>
+            <div class="flex items-center gap-1 pb-2 mb-2 border-b border-black/20">
+              <img src="img/mukul/apple.png" class="w-[42px] h-[42px]" alt="">
+              <div class="text-[#2A3439] md:text-16 text-14 !font-bold  font-normal">
+                info@finowings.com
+              </div>
+            </div>
+          </div>
+          <div class="md:w-[60%] w-full">
+            <form id="contactForm1">
+              <div class="my-2">
+                <div class="mb-2">
+                  <!-- <label for="name" class="block mb-1 text-sm font-medium text-gray-900 dark:text-white">Name</label> -->
+                  <input name="name" type="text" id="name"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
+                    placeholder="Name *" required />
+                </div>
+                <div class="mb-2 flex items-center gap-2">
+                  <div class="flex-shrink-0">
+                    <!-- <label for="code" class="block mb-1 text-sm font-medium text-gray-900 dark:text-white">Code</label> -->
+                    <select name="code" id="code"
+                      class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
+                      placeholder="Flowbite" required>
+                      <option>+91</option>
+                      <option>+1</option>
+                      <option>+44</option>
+                      <option>+61</option>
+                      <option>+49</option>
+                      <option>+33</option>
+                    </select>
+                  </div>
+                  <div class="w-full">
+                    <!-- <label for="phone" class="block mb-1 text-sm font-medium text-gray-900 dark:text-white">Phone
+                                        number</label> -->
+                    <input type="tel" name="phone" id="phone"
+                      class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
+                      pattern="\d{10}" maxlength="10" placeholder="Phone Number *" required />
+                  </div>
+                </div>
+                <div class="mb-2">
+                  <!-- <label for="email" class="block mb-1 text-sm font-medium text-gray-900 dark:text-white">Email</label> -->
+                  <input name="email" type="email" id="email"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
+                    placeholder="Email *" required />
+                </div>
+
+                <div class="mb-2">
+                  <!-- <label for="city" class="block mb-1 text-sm font-medium text-gray-900 dark:text-white">City</label> -->
+                  <textarea name="message" id="message"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
+                    placeholder="Message *" required></textarea>
+                </div>
+                <div class="mt-4 mx-auto md:mx-0">
+                  <button type="submit" id="contactSubmit"
+                    class="button rounded-xl py-[16px] px-[10px] md:px-[38px] bg-[#4566AD] w-full inline-block text-white text-18 md:text-20 ">
+                    <div class="relative overflow-hidden">
+                      <span class="button-content">Submit Form</span>
+                      <span class="button-content-hover">Submit Form</span>
+                    </div>
+                  </button>
+                </div>
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="pt-[40px] md:pt-[73px] pb-[90px] md:pb-[58px] bg-white scrollspy-section border-t border-darkbluemagenta/10">
+      <div class="container text-center">
+        <h2 class="text-black text-20 leading-[1.3] font-semibold mb-1 md:mb-2">
+          Mukul Agarwal
+        </h2>
+        <p class="text-18 text-black/50 leading-[1.44] font-normal">
+          &copy;2024 All Rights Reserved.
+        </p>
+
+        <!-- <div
+            class="flex items-start md:items-center justify-center md:flex-row flex-col mb-[83px] md:mb-[52px] mt-[49px]"
+          >
+            <a
+              href="#!"
+              class="mb-3 md:mb-0 mr-[45px] text-16 leading-none text-darkbluemagenta font-medium"
+            >
+              Terms of service
+            </a>
+            <a
+              href="#!"
+              class="mb-3 md:mb-0 mr-[45px] text-16 leading-none text-darkbluemagenta font-medium"
+            >
+              Privacy Policy
+            </a>
+            <a
+              href="#!"
+              class="mb-0 md:mb-0 text-16 leading-none text-darkbluemagenta font-medium"
+            >
+              Code of conduct
+            </a>
+          </div> -->
+        <ul class="flex items-center justify-center mt-1">
+          <li class="mb-0 mr-[30px]">
+            <a href="https://www.linkedin.com/company/finowings/mycompany/">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 432 432">
+                <path fill="#2A3439"
+                  d="M363 365V244q0-31-22-53t-53-22q-15 0-30 8.5T235 199v-26h-64v192h64V252q0-13 9-22.5t22.5-9.5t23 9.5T299 252v113h64zM96 137q16 0 27.5-11T135 99t-11.5-27.5T96 60T68.5 71.5T57 99t11.5 27T96 137zm32 228V173H64v192h64zM384 3q18 0 30.5 12.5T427 45v342q0 17-12.5 29.5T384 429H43q-18 0-30.5-12.5T0 387V45q0-17 12.5-29.5T43 3h341z" />
+              </svg>
+            </a>
+          </li>
+          <li class="mb-0 mr-[30px]">
+            <a href="https://twitter.com/finowings?t=6z2cPaYoEP8y8N-ISPD6Zg&s=08">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 16 16">
+                <path fill="#2A3439"
+                  d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
+              </svg>
+            </a>
+          </li>
+          <li class="mb-0 mr-[30px]">
+            <a href="https://www.facebook.com/finowings/">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <path
+                  d="M29.3346 16.0006C29.3346 8.64057 23.3613 2.66724 16.0013 2.66724C8.6413 2.66724 2.66797 8.64057 2.66797 16.0006C2.66797 22.4539 7.25464 27.8272 13.3346 29.0672V20.0006H10.668V16.0006H13.3346V12.6672C13.3346 10.0939 15.428 8.00057 18.0013 8.00057H21.3346V12.0006H18.668C17.9346 12.0006 17.3346 12.6006 17.3346 13.3339V16.0006H21.3346V20.0006H17.3346V29.2672C24.068 28.6006 29.3346 22.9206 29.3346 16.0006Z"
+                  fill="#2A3439" />
+              </svg>
+            </a>
+          </li>
+          <li class="mb-0">
+            <a href="https://www.instagram.com/finowings/">
+              <svg xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32" fill="none">
+                <path
+                  d="M17.7009 2.6679C18.6738 2.66417 19.6468 2.67395 20.6195 2.69723L20.8782 2.70657C21.1769 2.71723 21.4715 2.73057 21.8275 2.74657C23.2462 2.81323 24.2142 3.03723 25.0635 3.36657C25.9435 3.70523 26.6849 4.1639 27.4262 4.90523C28.104 5.57138 28.6286 6.37716 28.9635 7.26657C29.2929 8.1159 29.5169 9.08523 29.5835 10.5039C29.5995 10.8586 29.6129 11.1546 29.6235 11.4532L29.6315 11.7119C29.6552 12.6842 29.6654 13.6567 29.6622 14.6292L29.6635 15.6239V17.3706C29.6668 18.3436 29.6566 19.3165 29.6329 20.2892L29.6249 20.5479C29.6142 20.8466 29.6009 21.1412 29.5849 21.4972C29.5182 22.9159 29.2915 23.8839 28.9635 24.7332C28.6297 25.6236 28.105 26.43 27.4262 27.0959C26.7595 27.7737 25.9533 28.2982 25.0635 28.6332C24.2142 28.9626 23.2462 29.1866 21.8275 29.2532C21.4715 29.2692 21.1769 29.2826 20.8782 29.2932L20.6195 29.3012C19.6468 29.3249 18.6738 29.3352 17.7009 29.3319L16.7062 29.3332H14.9609C13.9879 29.3365 13.0149 29.3263 12.0422 29.3026L11.7835 29.2946C11.467 29.2831 11.1506 29.2698 10.8342 29.2546C9.41553 29.1879 8.44753 28.9612 7.59686 28.6332C6.70711 28.299 5.90118 27.7743 5.23553 27.0959C4.55692 26.4296 4.03183 25.6233 3.69686 24.7332C3.36753 23.8839 3.14353 22.9159 3.07686 21.4972C3.06201 21.1809 3.04868 20.8644 3.03686 20.5479L3.0302 20.2892C3.00561 19.3165 2.9945 18.3436 2.99686 17.3706V14.6292C2.99314 13.6567 3.00292 12.6842 3.0262 11.7119L3.03553 11.4532C3.0462 11.1546 3.05953 10.8586 3.07553 10.5039C3.1422 9.0839 3.3662 8.11723 3.69553 7.26657C4.03069 6.37673 4.55682 5.57116 5.23686 4.90657C5.90206 4.22757 6.70748 3.702 7.59686 3.36657C8.44753 3.03723 9.4142 2.81323 10.8342 2.74657L11.7835 2.70657L12.0422 2.6999C13.0144 2.67533 13.987 2.66422 14.9595 2.66657L17.7009 2.6679ZM16.3302 9.33457C15.4469 9.32207 14.5699 9.48527 13.7502 9.81466C12.9305 10.144 12.1844 10.6331 11.5553 11.2533C10.9263 11.8735 10.4267 12.6126 10.0858 13.4276C9.74483 14.2425 9.56925 15.1172 9.56925 16.0006C9.56925 16.884 9.74483 17.7586 10.0858 18.5736C10.4267 19.3885 10.9263 20.1276 11.5553 20.7478C12.1844 21.3681 12.9305 21.8571 13.7502 22.1865C14.5699 22.5159 15.4469 22.6791 16.3302 22.6666C18.0983 22.6666 19.794 21.9642 21.0442 20.7139C22.2945 19.4637 22.9969 17.768 22.9969 15.9999C22.9969 14.2318 22.2945 12.5361 21.0442 11.2859C19.794 10.0356 18.0983 9.33457 16.3302 9.33457ZM16.3302 12.0012C16.8615 11.9914 17.3895 12.0876 17.8833 12.2842C18.377 12.4807 18.8266 12.7737 19.2059 13.146C19.5852 13.5182 19.8864 13.9623 20.0921 14.4524C20.2978 14.9424 20.4038 15.4685 20.4039 15.9999C20.404 16.5313 20.2982 17.0574 20.0926 17.5475C19.8871 18.0376 19.586 18.4818 19.2069 18.8542C18.8277 19.2266 18.3782 19.5197 17.8845 19.7164C17.3908 19.9131 16.8629 20.0095 16.3315 19.9999C15.2707 19.9999 14.2532 19.5785 13.5031 18.8283C12.753 18.0782 12.3315 17.0608 12.3315 15.9999C12.3315 14.939 12.753 13.9216 13.5031 13.1715C14.2532 12.4213 15.2707 11.9999 16.3315 11.9999L16.3302 12.0012ZM23.3302 7.33457C22.9001 7.35178 22.4933 7.53477 22.195 7.8452C21.8968 8.15562 21.7302 8.56941 21.7302 8.9999C21.7302 9.43039 21.8968 9.84418 22.195 10.1546C22.4933 10.465 22.9001 10.648 23.3302 10.6652C23.7722 10.6652 24.1961 10.4896 24.5087 10.1771C24.8213 9.86452 24.9969 9.44059 24.9969 8.99857C24.9969 8.55654 24.8213 8.13262 24.5087 7.82006C24.1961 7.50749 23.7722 7.3319 23.3302 7.3319V7.33457Z"
+                  fill="#2A3439" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    </footer>
+    <script>
+      const contactFormone = document.querySelector("#contactForm1");
+      const submitButton = document.querySelector('#contactSubmit');
+      let debounceTimeout1;
+      contactFormone.addEventListener("submit", (e) => {
+        e.preventDefault();
+        // submitButton.innerHTML = '<span class="loader"></span>';
+        submitButton.setAttribute('disabled', 'true');
+        clearTimeout(debounceTimeout1);
+        // Set a new timeout for debouncing
+        debounceTimeout1 = setTimeout(() => {
+          let requestBody = new FormData(contactFormone);
+          fetch(
+            "https://webhooks.integrately.com/a/webhooks/a5558a2801d749bab9b78a710b941b17",
+            {
+              method: "POST",
+              body: requestBody,
+              mode: "no-cors",
+            }
+          )
+            .then((response) => {
+              alert("Submitted Successfully")
+              submitButton.innerHTML = 'Submitted';
+
+            })
+            .catch((error) => {
+              alert("Failed to submit response");
+            });
+        }, 300);
+      });
+    </script>
+    <script src="js/tiny-slider.js"></script>
+    <script src="js/app.js"></script>
+    <script type="module" src="js/updater1.js"></script>
+    <script type="module" src="js/updater2.js"></script>
+    <script type="module" src="js/updater3.js"></script>
+    <script type="module" src="js/updater4.js"></script>
+    <script type="module" src="js/updater5.js"></script>
+    <script type="module" src="js/updater6.js"></script>
+    <script type="module" src="js/updater7.js"></script>
+    <script type="module" src="js/updater8.js"></script>
+    <script type="module" src="js/updater9.js"></script>
+    <script type="module" src="js/updater10.js"></script>
+    <script type="module" src="js/updater11.js"></script>
+</body>
+
+</html>

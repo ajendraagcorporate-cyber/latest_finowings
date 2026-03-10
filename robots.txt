@@ -1,0 +1,39 @@
+User-agent: *
+
+# --- Sensitive or backend paths ---
+Disallow: /admin/
+Disallow: /technical-analysis-new/
+Disallow: /Portfolio/
+Allow: /admin/media/
+Disallow: /intraday-swing-strategy/
+Disallow: /option-series/
+Disallow: /my-ad/
+Disallow: /dividend-paying-stocks/
+Disallow: /wordpress/
+Disallow: /index-core-web-vitals.php
+Disallow: /index_demo.php
+Disallow: /index_demo_ipo.php
+Disallow: /blog1/index_demo_blog.php
+Disallow: /youtube-users/
+Disallow: /youtube-users/index_demo.php
+Disallow: /Main-Board-IPO/index-old.php
+
+# --- Parameterized URLs ---
+Disallow: /*?ref=
+Disallow: /*?pageno=
+Disallow: /*?page=
+Disallow: /*?i=
+Disallow: /*?t=
+Disallow: /*?utm_source=
+Disallow: /*?utm_medium=
+Disallow: /*?utm_campaign=
+Disallow: /*?sessionid=
+
+# --- Duplicate folders or low-value sections ---
+Disallow: /tag/
+Disallow: /category/
+Disallow: /archive/
+Disallow: /search/
+
+# --- Sitemap location ---
+Sitemap: https://www.finowings.com/sitemap.xml

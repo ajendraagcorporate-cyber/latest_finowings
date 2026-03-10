@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple Bouncing Free Icons</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: #111;
+      overflow: hidden;
+    }
+    .icon {
+      position: absolute;
+      width: 60px;   /* icon size */
+      height: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Multiple FREE Icons -->
+  <img src="https://cdn-icons-png.flaticon.com/512/891/891438.png" class="icon" alt="Free">
+  
+
+  <script>
+    const icons = document.querySelectorAll(".icon");
+    const w = window.innerWidth;
+    const h = window.innerHeight;
+
+    // Har icon ke liye random position aur speed set karenge
+    const data = Array.from(icons).map(icon => {
+      return {
+        el: icon,
+        x: Math.random() * (w - 80),
+        y: Math.random() * (h - 80),
+        dx: (Math.random() * 4) + 2,  // random speed X
+        dy: (Math.random() * 4) + 2   // random speed Y
+      };
+    });
+
+    function moveIcons() {
+      data.forEach(d => {
+        d.x += d.dx;
+        d.y += d.dy;
+
+        if (d.x + d.el.offsetWidth >= w || d.x <= 0) d.dx *= -1;
+        if (d.y + d.el.offsetHeight >= h || d.y <= 0) d.dy *= -1;
+
+        d.el.style.left = d.x + "px";
+        d.el.style.top = d.y + "px";
+      });
+
+      requestAnimationFrame(moveIcons);
+    }
+
+    moveIcons();
+  </script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+name: 🚀 Deploy Finowings → Hostinger
+
+# ============================================================
+# TRIGGER: main branch पर push होते ही auto-deploy शुरू
+# ============================================================
+on:
+  push:
+    branches:
+      - master      # आपकी main branch
+  workflow_dispatch:  # Manual deploy का option भी रहेगा
+
+jobs:
+  deploy:
+    name: Deploy to Hostinger via FTP
+    runs-on: ubuntu-latest
+
+    steps:
+      # --------------------------------------------------------
+      # Step 1: Code checkout
+      # --------------------------------------------------------
+      - name: ⬇️ Checkout Code
+        uses: actions/checkout@v4
+
+      # --------------------------------------------------------
+      # Step 2: GitHub Secrets से config.php बनाओ
+      # (असली credentials GitHub Secrets में safe रहेंगे)
+      # --------------------------------------------------------
+      - name: 🔐 Create config.php from Secrets
+        run: |
+          cat > DLL/config.php << 'PHPEOF'
+          <?php
+          define('DB_HOST', '${{ secrets.DB_HOST }}');
+          define('DB_USER', '${{ secrets.DB_USER }}');
+          define('DB_PASS', '${{ secrets.DB_PASS }}');
+          define('DB_NAME', '${{ secrets.DB_NAME }}');
+
+          $con = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+          if (!$con) {
+              die("Database Connection Failed: " . mysqli_connect_error());
+          }
+          mysqli_set_charset($con, "utf8mb4");
+          ?>
+          PHPEOF
+
+      # --------------------------------------------------------
+      # Step 3: FTP से Hostinger पर Deploy
+      # SamKirkland/FTP-Deploy-Action use करता है
+      # --------------------------------------------------------
+      - name: 📤 FTP Deploy to Hostinger
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: /public_html/           # Hostinger root folder
+          local-dir: ./                        # GitHub repo root से deploy
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            **/.github/**
+            **/wordpress/**
+            **/*.sql
+            **/*.sql.gz
+            **/backups/**
+            **/*.log
+            **/health_check.log
+            **/DLL/config.example.php
+          # केवल बदली हुई files upload होंगी (faster deploy)
+          dangerous-clean-slate: false
+
+      # --------------------------------------------------------
+      # Step 4: Deploy Success Notification
+      # --------------------------------------------------------
+      - name: ✅ Deploy Complete
+        if: success()
+        run: |
+          echo "========================================="
+          echo "✅ Finowings deployed successfully!"
+          echo "🌐 https://www.finowings.com"
+          echo "⏰ $(date)"
+          echo "========================================="
+
+      - name: ❌ Deploy Failed
+        if: failure()
+        run: |
+          echo "========================================="
+          echo "❌ Deploy FAILED! Check logs above."
+          echo "========================================="
+
