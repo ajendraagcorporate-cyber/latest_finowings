@@ -9,53 +9,55 @@ if ($link === false) {
 }
 
 //Image Upload
-$target_dir = "media/courseicons/";
-$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
-$uploadOk = 1;
-$imageFileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
+if (!empty($_FILES["fileToUpload"]["tmp_name"])) {
+  $target_dir = "media/courseicons/";
+  $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
+  $uploadOk = 1;
+  $imageFileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
 
-// Check if image file is a actual image or fake image
-if (isset($_POST["submit"])) {
-  $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
-  if ($check !== false) {
-    echo "File is an image - " . $check["mime"] . ".";
-    $uploadOk = 1;
-  } else {
-    echo "File is not an image.";
+  // Check if image file is a actual image or fake image
+  if (isset($_POST["submit"])) {
+    $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
+    if ($check !== false) {
+      echo "File is an image - " . $check["mime"] . ".";
+      $uploadOk = 1;
+    } else {
+      echo "File is not an image.";
+      $uploadOk = 0;
+    }
+  }
+
+  // Check if file already exists
+  if (file_exists($target_file)) {
+    echo "Sorry, file already exists.";
     $uploadOk = 0;
   }
-}
 
-// Check if file already exists
-if (file_exists($target_file)) {
-  echo "Sorry, file already exists.";
-  $uploadOk = 0;
-}
+  // Check file size
+  if ($_FILES["fileToUpload"]["size"] > 500000) {
+    echo "Sorry, your file is too large.";
+    $uploadOk = 0;
+  }
 
-// Check file size
-if ($_FILES["fileToUpload"]["size"] > 500000) {
-  echo "Sorry, your file is too large.";
-  $uploadOk = 0;
-}
+  // Allow certain file formats
+  if (
+    $imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
+    && $imageFileType != "gif" && $imageFileType != "webp"
+  ) {
+    echo "Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
+    $uploadOk = 0;
+  }
 
-// Allow certain file formats
-if (
-  $imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
-  && $imageFileType != "gif" && $imageFileType != "webp"
-) {
-  echo "Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
-  $uploadOk = 0;
-}
-
-// Check if $uploadOk is set to 0 by an error
-if ($uploadOk == 0) {
-  echo "Sorry, your file was not uploaded.";
-  // if everything is ok, try to upload file
-} else {
-  if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
-    echo "The file " . htmlspecialchars(basename($_FILES["fileToUpload"]["name"])) . " has been uploaded.";
+  // Check if $uploadOk is set to 0 by an error
+  if ($uploadOk == 0) {
+    echo "Sorry, your file was not uploaded.";
+    // if everything is ok, try to upload file
   } else {
-    echo "Sorry, there was an error uploading your file.";
+    if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
+      echo "The file " . htmlspecialchars(basename($_FILES["fileToUpload"]["name"])) . " has been uploaded.";
+    } else {
+      echo "Sorry, there was an error uploading your file.";
+    }
   }
 }
 
@@ -63,7 +65,8 @@ if ($uploadOk == 0) {
 $id = mysqli_real_escape_string($link, $_REQUEST['id']);
 $topic_id = mysqli_real_escape_string($link, $_REQUEST['topic']);
 $chapter_name = mysqli_real_escape_string($link, $_REQUEST['chapter_name']);
-$chapter_image = mysqli_real_escape_string($link, $_FILES["fileToUpload"]["name"]);
+$chapter_image_name = isset($_FILES["fileToUpload"]["name"]) ? $_FILES["fileToUpload"]["name"] : '';
+$chapter_image = mysqli_real_escape_string($link, $chapter_image_name);
 $updated_date = date("Y-m-d h:m:s");
 $me_title = mysqli_real_escape_string($link, $_REQUEST['me_title']);
 $me_keywords = mysqli_real_escape_string($link, $_REQUEST['me_keywords']);
@@ -75,7 +78,7 @@ $content1 = str_replace("'", "&#039;", $content);
 $username = $_SESSION['user']['username'];
 
 // Attempt insert query execution
-if ($_FILES["fileToUpload"]["name"] != '') {
+if (!empty($chapter_image_name)) {
   $sql = "UPDATE freestudychapter SET topic_id='$topic_id', chapter_name='$chapter_name', chapter_image='$chapter_image', content='$content1', updated_date='$updated_date', me_title='$me_title', me_keywords='$me_keywords', me_desc='$me_desc', blog_url='$blog_url', chapter_schema='$chapter_schema', update_user = '$username' where id='$id'";
 } else {
   $sql = "UPDATE freestudychapter SET topic_id='$topic_id', chapter_name='$chapter_name', content='$content1', updated_date='$updated_date', me_title='$me_title', me_keywords='$me_keywords', me_desc='$me_desc', blog_url='$blog_url', chapter_schema='$chapter_schema', update_user = '$username' where id='$id'";
