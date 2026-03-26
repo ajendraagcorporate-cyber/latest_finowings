@@ -54,6 +54,7 @@ $blogcat_name = str_replace(" ", "-", $cat_name);
 // }
 
 $cont = $blogdetails['content'];
+$short_summary = $blogdetails['short_summary'];
 $img = $blogdetails['file'];
 $imgn = explode(".", $img);
 $imgname = $imgn['0'];
@@ -643,6 +644,13 @@ if (isset($_POST['submit'])) {
             <br />
             <div style="font-size:14px; padding-left: 1px; padding-right: 20px;">
 
+                <?php if (!empty($short_summary)) { ?>
+                    <div style="background-color: #FDF4F5; padding: 20px 25px; margin-bottom: 25px; margin-top: 5px; font-size: 16px; color: #333; border-radius: 8px; text-align: left;">
+                        <h4 style="margin-top: 0; margin-bottom: 12px; font-weight: 700; color: #111; font-size: 20px;">Summary</h4>
+                        <?php echo $short_summary; ?>
+                    </div>
+                <?php } ?>
+
               <!-- Table of Contents Starts -->
               <div class="content-box">
                 <div align="center">
@@ -703,7 +711,8 @@ if (isset($_POST['submit'])) {
               <?php
               if ($cont != '') {
               ?>
-                <div style="font-size:17px !important; text-align: justify;"><?php echo $cont; ?></div>
+                <div style="font-size:17px !important; text-align: justify;">
+                <?php echo $cont; ?></div>
               <?php
               } else {
               ?>

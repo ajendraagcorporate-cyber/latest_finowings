@@ -24,6 +24,7 @@ if (!$row) {
 // डेटा लोड करना
 $title = $row['title'];
 $short_desc = $row['short_desc'];
+$short_summary = isset($row['short_summary']) ? $row['short_summary'] : '';
 $cat_id = $row['cat_id'];
 $content = $row['content'];
 $tags = $row['tags'];
@@ -106,6 +107,10 @@ $cat_name = ($cat_data) ? $cat_data['cat_name'] : "Select Category";
 
                     <p><span class="form-label">Short Desc :</span>
                         <input type="text" class="input-style" name="short_desc" value="<?php echo htmlspecialchars($short_desc); ?>" required>
+                    </p>
+
+                    <p><span class="form-label">Short Summary :</span><br><br>
+                        <textarea name="short_summary" class="input-style" rows="4" style="width: 100%;" placeholder="Optional short summary to display at the top of the blog content..."><?php echo htmlspecialchars($short_summary); ?></textarea>
                     </p>
 
                     <p><span class="form-label">Category :</span>

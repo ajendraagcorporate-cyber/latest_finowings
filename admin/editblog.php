@@ -37,6 +37,7 @@ if(isset($_FILES["fileToUpload"]) && $_FILES["fileToUpload"]["name"] != '') {
 $id = mysqli_real_escape_string($link, $_REQUEST['id']);
 $title = mysqli_real_escape_string($link, $_REQUEST['title']);
 $short_desc = mysqli_real_escape_string($link, $_REQUEST['short_desc']);
+$short_summary = mysqli_real_escape_string($link, $_REQUEST['short_summary']);
 $cat_id = mysqli_real_escape_string($link, $_REQUEST['category']);
 $content = mysqli_real_escape_string($link, $_REQUEST['editor1']);
 $tags = mysqli_real_escape_string($link, $_REQUEST['tags']);
@@ -71,9 +72,9 @@ $publish = mysqli_real_escape_string($link, $_REQUEST['publish']);
 $username = isset($_SESSION['userinfo']['name']) ? $_SESSION['userinfo']['name'] : 'Admin';
 
 if($file != "") {
-    $sql = "UPDATE blog SET title='$title', short_desc='$short_desc', cat_id='$cat_id', content='$content', tags='$tags', file='$file', updated_date='$updated_date', img_alttag='$img_alttag', me_keywords='$me_keywords', me_desc='$me_desc', blog_url='$blog_url', faq1='$faq1', ans1='$ans1', faq2='$faq2', ans2='$ans2', faq3='$faq3', ans3='$ans3', faq4='$faq4', ans4='$ans4', faq5='$faq5', ans5='$ans5', faq6='$faq6', ans6='$ans6', faq7='$faq7', ans7='$ans7', faq8='$faq8', ans8='$ans8', faq9='$faq9', ans9='$ans9', faq10='$faq10', ans10='$ans10', schema_markup='$schema_markup', spotify_link='$spotify_link', is_publish='$publish', update_user = '$username' where id='$id'";
+    $sql = "UPDATE blog SET title='$title', short_desc='$short_desc', short_summary='$short_summary', cat_id='$cat_id', content='$content', tags='$tags', file='$file', updated_date='$updated_date', img_alttag='$img_alttag', me_keywords='$me_keywords', me_desc='$me_desc', blog_url='$blog_url', faq1='$faq1', ans1='$ans1', faq2='$faq2', ans2='$ans2', faq3='$faq3', ans3='$ans3', faq4='$faq4', ans4='$ans4', faq5='$faq5', ans5='$ans5', faq6='$faq6', ans6='$ans6', faq7='$faq7', ans7='$ans7', faq8='$faq8', ans8='$ans8', faq9='$faq9', ans9='$ans9', faq10='$faq10', ans10='$ans10', schema_markup='$schema_markup', spotify_link='$spotify_link', is_publish='$publish', update_user = '$username' where id='$id'";
 } else {
-    $sql = "UPDATE blog SET title='$title', short_desc='$short_desc', cat_id='$cat_id', content='$content', tags='$tags', updated_date='$updated_date', img_alttag='$img_alttag', me_keywords='$me_keywords', me_desc='$me_desc', blog_url='$blog_url', faq1='$faq1', ans1='$ans1', faq2='$faq2', ans2='$ans2', faq3='$faq3', ans3='$ans3', faq4='$faq4', ans4='$ans4', faq5='$faq5', ans5='$ans5', faq6='$faq6', ans6='$ans6', faq7='$faq7', ans7='$ans7', faq8='$faq8', ans8='$ans8', faq9='$faq9', ans9='$ans9', faq10='$faq10', ans10='$ans10', schema_markup='$schema_markup', spotify_link='$spotify_link', is_publish='$publish', update_user = '$username' where id='$id'";
+    $sql = "UPDATE blog SET title='$title', short_desc='$short_desc', short_summary='$short_summary', cat_id='$cat_id', content='$content', tags='$tags', updated_date='$updated_date', img_alttag='$img_alttag', me_keywords='$me_keywords', me_desc='$me_desc', blog_url='$blog_url', faq1='$faq1', ans1='$ans1', faq2='$faq2', ans2='$ans2', faq3='$faq3', ans3='$ans3', faq4='$faq4', ans4='$ans4', faq5='$faq5', ans5='$ans5', faq6='$faq6', ans6='$ans6', faq7='$faq7', ans7='$ans7', faq8='$faq8', ans8='$ans8', faq9='$faq9', ans9='$ans9', faq10='$faq10', ans10='$ans10', schema_markup='$schema_markup', spotify_link='$spotify_link', is_publish='$publish', update_user = '$username' where id='$id'";
 }
 
 if(mysqli_query($link, $sql)){

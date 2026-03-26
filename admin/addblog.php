@@ -59,6 +59,7 @@ if ($uploadOk == 0) {
 // Escape user inputs for security
 $title = mysqli_real_escape_string($link, $_REQUEST['title']);
 $short_desc = mysqli_real_escape_string($link, $_REQUEST['short_desc']);
+$short_summary = mysqli_real_escape_string($link, $_REQUEST['short_summary']);
 $cat_id = mysqli_real_escape_string($link, $_REQUEST['category']);
 //$content = mysqli_real_escape_string($link, $_REQUEST['editor1']);
 $tags = mysqli_real_escape_string($link, $_REQUEST['tags']);
@@ -72,7 +73,7 @@ $username = $_SESSION['user']['username'];
 
   
 // Attempt insert query execution
-$sql = "INSERT INTO blog (title, short_desc, cat_id, tags, file, created_date, updated_date, img_alttag, me_keywords, me_desc, blog_url, is_publish, update_user) VALUES ('$title', '$short_desc', '$cat_id', '$tags', '$file', '$created_date', '$created_date', '$img_alttag', '$me_keywords', '$me_desc', '$blog_url', 'No', '$username')";
+$sql = "INSERT INTO blog (title, short_desc, short_summary, cat_id, tags, file, created_date, updated_date, img_alttag, me_keywords, me_desc, blog_url, is_publish, update_user) VALUES ('$title', '$short_desc', '$short_summary', '$cat_id', '$tags', '$file', '$created_date', '$created_date', '$img_alttag', '$me_keywords', '$me_desc', '$blog_url', 'No', '$username')";
 if(mysqli_query($link, $sql)){
   header( "Location: blog_list.php" );
 } else{

@@ -65,6 +65,7 @@ include('sidebar.php');
 		<p>&nbsp;</p>
         <p align="left"><font color="#000000"><b>Title :</b></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input  type="text" style="width: 500px;" name="title" required > </input></p> <br> <br>
 		<p align="left"><font color="#000000"><b>Short Desc :</b></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input  type="text" style="width: 500px;" name="short_desc" required > </input></p> <br> <br>
+		<p align="left"><font color="#000000"><b>Short Summary (Optional) :</b></font>&nbsp;&nbsp;&nbsp;<textarea style="width: 500px; height: 100px; vertical-align: top;" name="short_summary" placeholder="Optional short summary to display at the top of the blog content..."></textarea></p> <br> <br>
 		<p align="left"><font color="#000000"><b>Category :</b></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		<select style="width: 300px;" name="category" style="background: #FFFFFF;">
 		
