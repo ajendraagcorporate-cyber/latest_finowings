@@ -564,4 +564,11 @@ function getintradaystrategePage()
     $q = mysqli_query($link, "SELECT * FROM intraday_landingpage where id='1'");
     return $q;
 }
+
+function getyoutubePage()
+{
+    $link = getDB();
+    $q = mysqli_query($link, "SELECT * FROM youtube_landingpage where id='1'");
+    return $q;
+}
 ?>

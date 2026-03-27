@@ -372,6 +372,14 @@ if ($_SESSION['user']['username'] == 'finoadmin') {
             </a>
           </li>
 
+          <li class="nav-item">
+            <a href="edit-youtube-page.php?id=1" class="nav-link">
+              <i class="fa fa-cubes"></i>&nbsp;
+              <p>YouTube Landing Page</p>
+              <i class="fas fa-angle-left right"></i>
+            </a>
+          </li>
+
 
 
 
@@ -656,6 +664,13 @@ if ($_SESSION['user']['username'] == 'finoadmin') {
               <i class="fas fa-angle-left right"></i>
             </a>
           </li>
+          <li class="nav-item">
+            <a href="edit-youtube-page.php?id=1" class="nav-link">
+              <i class="fa fa-cubes"></i>&nbsp;
+              <p>YouTube Landing Page</p>
+              <i class="fas fa-angle-left right"></i>
+            </a>
+          </li>
 
 
 
@@ -847,6 +862,13 @@ if ($_SESSION['user']['username'] == 'finoadmin') {
             <a href="edit-strategy-page.php?id=1" class="nav-link">
               <i class="fa fa-cubes"></i>&nbsp;
               <p>Inraday Landing Page</p>
+              <i class="fas fa-angle-left right"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="edit-youtube-page.php?id=1" class="nav-link">
+              <i class="fa fa-cubes"></i>&nbsp;
+              <p>YouTube Landing Page</p>
               <i class="fas fa-angle-left right"></i>
             </a>
           </li>

@@ -2,12 +2,19 @@
 include("../DLL/config.php");
 include("../DLL/functions.php");
 // Assuming these functions exist based on your code
-$pagedetail = getintradaystrategePage(); 
+$pagedetail = getyoutubePage(); 
 $pagedetails = mysqli_fetch_array($pagedetail);
 $title = $pagedetails['title']; 
 $short_desc = $pagedetails['short_desc'];
 $date = $pagedetails['date'];
-// ... mapping other variables ...
+$p1 = $pagedetails['p1'];
+$p2 = $pagedetails['p2'];
+$p3 = $pagedetails['p3'];
+$p4 = $pagedetails['p4'];
+$p5 = $pagedetails['p5'];
+$p6 = $pagedetails['p6'];
+$p7 = $pagedetails['p7'];
+$community_link = $pagedetails['community_link'];
 ?>
 <!DOCTYPE html>
 <html lang="hi">
@@ -454,10 +461,10 @@ $date = $pagedetails['date'];
   <header>
     <div class="container">
       <div class="date-badge">
-        <i class="far fa-calendar-alt"></i> 07 Mar, 9:00 PM
+        <i class="far fa-calendar-alt"></i> <?php echo date("d M, g:i A", strtotime($date)); ?>
       </div>
 
-      <h1><span class="highlight-fire">🔥 Super</span> Intraday Trading Session</h1>
+      <h1><?php echo $title; ?></h1>
       
       <p><?php echo $short_desc; ?></p>
       
@@ -479,11 +486,11 @@ $date = $pagedetails['date'];
             <div class="learn-list">
                 <h2>Are you facing these problems?</h2>       
                 <ul>
-                    <li><i class="fas fa-circle-question"></i> Not sure when to enter a trade</li>
-                    <li><i class="fas fa-scale-unbalanced"></i> Confused about buy or sell decisions</li>
-                    <li><i class="fas fa-arrow-trend-down" style="color:#e74c3c;"></i> Small profits but big losses</li>
-                    <li><i class="fas fa-compass-drafting"></i> Using indicators but no clear direction</li>
-                    <li><i class="fas fa-ban"></i> Depending on random tips or Telegram calls</li>
+                    <li><i class="fas fa-circle-question"></i> <?php echo $p1; ?></li>
+                    <li><i class="fas fa-scale-unbalanced"></i> <?php echo $p2; ?></li>
+                    <li><i class="fas fa-arrow-trend-down" style="color:#e74c3c;"></i> <?php echo $p3; ?></li>
+                    <li><i class="fas fa-compass-drafting"></i> <?php echo $p4; ?></li>
+                    <li><i class="fas fa-ban"></i> <?php echo $p5; ?></li>
                 </ul>
             </div>
             <div class="learn-img">
@@ -673,7 +680,7 @@ $date = $pagedetails['date'];
           <p>Join our community for the class link:</p>
           
           <div class="whatsapp-button-container">
-            <a href="https://chat.whatsapp.com/Gs0fEWq73p15IVgGDFqBha" target="_blank" class="whatsapp-community-btn">
+            <a href="<?php echo $community_link; ?>" target="_blank" class="whatsapp-community-btn">
               <div class="whatsapp-logo">
                 <i class="fab fa-whatsapp" style="color:#fff; font-size:24px;"></i>
               </div>
@@ -688,7 +695,7 @@ $date = $pagedetails['date'];
   </div>
 
  <script>
-    const targetDate = new Date("Mar 07, 2026 21:00:00").getTime();
+    const targetDate = new Date("<?php echo $date; ?>").getTime();
     const countdownEl = document.getElementById("countdown");
     setInterval(function(){
       const now = new Date().getTime();
