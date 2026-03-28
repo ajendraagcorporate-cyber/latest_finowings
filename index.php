@@ -19,6 +19,7 @@ $freestudytopic = getfreestudyTopic();
 $testimonials1 = getTestimonials1();
 $testimonials2 = getTestimonials2();
 $blogs = gethomepageBlogs();
+$home_popup = getHomePopup();
 
 $active_page = 'home';
 ?>
@@ -1033,6 +1034,7 @@ $active_page = 'home';
     <!-- Contact End -->
 
     <!-- Section 14: Auto Popup Script Start -->
+    <?php if($home_popup && $home_popup['status'] == 'active'): ?>
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" role="dialog" aria-modal="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content" style="background:none; border:none;">
@@ -1046,7 +1048,7 @@ $active_page = 'home';
                                 <div class="pop-up-box">
                                     <div class="row">
                                         <div class="col-lg-12 col-sm-12 col-12 mb-3">
-                                            <a href="https://www.finowings.com/learn-intraday-strategy/" target="_blank"><img src="img/web_popup.webp" alt="Special Offer" class="img-fluid" loading="lazy" width="800" height="600"></a>
+                                            <a href="<?php echo $home_popup['link']; ?>" target="_blank"><img src="img/<?php echo $home_popup['image']; ?>" alt="Special Offer" class="img-fluid" loading="lazy" width="800" height="600"></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1057,6 +1059,7 @@ $active_page = 'home';
             </div>
         </div>
     </div>
+    <?php endif; ?>
 
     <!-- Footer Start -->
     <?php include("footer.php"); ?>

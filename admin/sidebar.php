@@ -136,6 +136,12 @@ if ($_SESSION['user']['username'] == 'finoadmin') {
                   <p>Manage Testimonial</p>
                 </a>
               </li>-->
+              <li class="nav-item">
+                <a href="edit-home-popup.php" class="nav-link">
+                  <i class="fa fa-cog"></i>&nbsp;
+                  <p>Manage Home Popup</p>
+                </a>
+              </li>
             </ul>
           </li>
 

@@ -571,4 +571,12 @@ function getyoutubePage()
     $q = mysqli_query($link, "SELECT * FROM youtube_landingpage where id='1'");
     return $q;
 }
+
+function getHomePopup()
+{
+    $link = getDB();
+    $q = mysqli_query($link, "SELECT * FROM home_popup where id='1'");
+    $r = mysqli_fetch_array($q);
+    return $r;
+}
 ?>
