@@ -17,10 +17,12 @@ $target_file1 = $target_dir1 . basename($_FILES["fileToUpload1"]["name"]);
  
 // Escape user inputs for security
 $file1 = mysqli_real_escape_string($link, $_FILES["fileToUpload1"]["name"]);
-$date = date("Y-m-d h:m:S");
+$link_val = mysqli_real_escape_string($link, $_POST['link']);
+$status = mysqli_real_escape_string($link, $_POST['status']);
+$date = date("Y-m-d H:i:s");
   
 // Attempt insert query execution
-$sql = "INSERT INTO home_slider (image_name, created_date, updated_date) VALUES ('$file1', '$date', '$date')";
+$sql = "INSERT INTO home_slider (image_name, link, status, created_date, updated_date) VALUES ('$file1', '$link_val', '$status', '$date', '$date')";
 if(mysqli_query($link, $sql)){
   header( "Location: homeslider_list.php" );
 } else{

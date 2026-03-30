@@ -85,24 +85,33 @@ $query = "SELECT * FROM home_slider order by updated_date desc";
 
 echo '<table border="1" cellspacing="2" cellpadding="2" style="width: 50%;" bgcolor="#FFFFFF" align="center"> 
       <tr class="tr"> 
-          <td style="width: 62px;" class="td"> <font face="Arial">Sr No.</font> </td> 
+          <td style="width: 62px;" class="td"> <font face="Arial">ID</font> </td> 
           <td class="td" style="width: 200px;"> <font face="Arial">Image</font> </td> 
+          <td class="td"> <font face="Arial">Link</font> </td> 
 		  <td class="td" style="width: 200px;"> <font face="Arial">Updated Date</font> </td> 
-           <td class="td"> <font face="Arial">Delete</font> </td> 
-      </tr>';
+          <td class="td"> <font face="Arial">Status</font> </td> 
+           <td class="td"> <font face="Arial">Action</font> </td> 
+      </tr>
+';
 
 if ($result = mysqli_query($link, $query)) {
     while ($row = $result->fetch_assoc()) {
         $field1name = $row["id"];
         $field2name = $row["image_name"];
         $field3name = $row["updated_date"];
+        $field5name = $row["link"];
+        $status = $row["status"];
         	
         echo '<tr> 
                   <td><font color="black">'.$field1name.'</font></td> 
-                  <td><font color="black"><img src="media/'.$field2name.'" width="300" height="100"></font></td>
-									  
+                  <td><font color="black"><img src="media/'.$field2name.'" width="250" height="100" style="object-fit: contain;"></font></td>
+				  <td><font color="black">'.$field5name.'</font></td> 				  
                   <td><font color="black">'.$field3name.'</font></td> 
-				  <td><a href="delete-homeslider.php?i='.$field1name.'">Delete</td>
+                  <td><font color="black">'.ucfirst($status).'</font></td> 
+				  <td>
+                      <a href="edit-homeslider.php?id='.$field1name.'" class="btn btn-sm btn-primary">Edit</a>
+                      <a href="delete-homeslider.php?i='.$field1name.'" class="btn btn-sm btn-danger">Delete</a>
+                  </td>
               </tr>';
     }
     $result->free();

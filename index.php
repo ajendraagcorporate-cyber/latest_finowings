@@ -22,6 +22,7 @@ $blogs = gethomepageBlogs();
 $home_popup = getHomePopup();
 
 $active_page = 'home';
+$home_banners = getHomeBanners();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -147,86 +148,51 @@ $active_page = 'home';
     <?php include("top-navigation.php"); ?>
     <!-- Code with Ajendra: Section 2 - Navbar End -->
 
-    <!-- Code with Ajendra: Section 3 - Carousel Start -->
     <div id="demo" class="carousel slide" data-ride="carousel" data-interval="3000" style="z-index:20;">
 
         <!-- Indicators -->
         <ol class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-            <li data-target="#demo" data-slide-to="3"></li>
-            <!-- <li data-target="#demo" data-slide-to="4"></li> -->
-            <!-- <li data-target="#demo" data-slide-to="5"></li> -->
-
+            <?php if ($sliderfi) { ?>
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <?php
+                $sliderai = getSliderAI();
+                $i = 1;
+                while ($sai = mysqli_fetch_array($sliderai)) {
+                ?>
+                    <li data-target="#demo" data-slide-to="<?php echo $i; ?>"></li>
+                <?php
+                    $i++;
+                }
+                ?>
+            <?php } ?>
         </ol>
 
         <!-- The slideshow -->
         <div class="carousel-inner">
+            <?php if ($sliderfi) { ?>
+                <div class="carousel-item active">
+                    <a href="<?php echo $sliderfi['link']; ?>">
+                        <img src="admin/media/<?php echo $sliderfi['image_name']; ?>" alt="Stock Market Banner" class="img-fluid mx-auto d-block" width="1920" height="600">
+                    </a>
+                </div>
 
-            <div class="carousel-item active">
-                <a href="https://courses.finowings.com/mukul-dbs/user-payment/194/1/live/web-1ecd768f3a3797c6">
+                <?php
+                // Reset pointer or fetch again if needed, but getSliderAI already fetches from offset 1
+                $sliderai = getSliderAI();
+                while ($sai = mysqli_fetch_array($sliderai)) {
+                ?>
+                    <div class="carousel-item">
+                        <a href="<?php echo $sai['link']; ?>">
+                            <img loading="lazy" src="admin/media/<?php echo $sai['image_name']; ?>" alt="Stock Market Banner" class="img-fluid mx-auto d-block" width="1920" height="600">
+                        </a>
+                    </div>
+                <?php } ?>
+            <?php } else { ?>
+                <!-- Fallback if no sliders are active -->
+                <div class="carousel-item active">
                     <img src="img/banner_10_master_class.webp" alt="Stock Market Courses" class="img-fluid mx-auto d-block" width="1920" height="600">
-                </a>
-            </div>
-
-
-            <div class="carousel-item">
-                <a href="https://courses.finowings.com/stock-market-courses-recorded">
-                    <img loading="lazy" src="img/recorder-img-web-banner_26.webp" alt="Stock Market Courses" class="img-fluid mx-auto d-block" width="1920" height="600">
-                </a>
-            </div>
-
-            <!-- <div class="carousel-item">
-      <a href="https://courses.finowings.com/stock-market-courses-detail/traders-secret-club" target="_blank">
-        <picture>
-          <source media="(max-width: 576px)" srcset="admin/media/technical-analysis-banner-mobile.webp">
-          <img loading="lazy" src="img/traders-secret-club.webp" alt="traders-secret-club" class="img-fluid mx-auto d-block">
-        </picture>
-      </a>
-    </div> -->
-
-
-            <div class="carousel-item">
-                <a href="https://www.finowings.com/deltaexchangeclicks.php" target="_blank">
-                    <picture>
-                        <!-- Section: Carousel Mobile Image -->
-                        <source media="(max-width: 576px)" srcset="img/delta-exchange-banner.webp">
-                        <img loading="lazy" src="img/delta-exchange-banner.webp" alt="Delta-Exchange" class="img-fluid mx-auto d-block">
-                    </picture>
-                </a>
-            </div>
-
-
-            <div class="carousel-item">
-                <a href="https://www.finowings.com/financial-freedom-conclave/">
-                    <picture>
-                        <!-- Section: Carousel Mobile Image -->
-                        <source media="(max-width: 576px)" srcset="admin/media/mukul-agrawal-world-record.webp">
-                        <img loading="lazy" src="admin/media/mukul-agrawal-world-record.webp" alt="World-Record-Mukul-Agrawal" class="img-fluid mx-auto d-block">
-                    </picture>
-                </a>
-            </div>
-
-            <!-- <div class="carousel-item">
-      <a href="https://www.finowings.com/financial-products/" target="_blank">
-        <picture>
-          <source media="(max-width: 576px)" srcset="admin/media/technical-analysis-banner-mobile.webp">
-          <img loading="lazy" src="admin/media/financial-products-finowings.webp" alt="Financial-Products" class="img-fluid mx-auto d-block">
-        </picture>
-      </a>
-    </div> -->
-
-            <div class="carousel-item">
-                <a href="https://www.finowings.com/financial-books/">
-                    <picture>
-                        <!-- Section: Carousel Mobile Image -->
-                        <source media="(max-width: 576px)" srcset="admin/media/mukul-agrawal-books.webp">
-                        <img loading="lazy" src="admin/media/mukul-agrawal-books.webp" alt="Best-Stock-Market-Book" class="img-fluid mx-auto d-block">
-                    </picture>
-                </a>
-            </div>
-
+                </div>
+            <?php } ?>
         </div> <!-- Close carousel-inner -->
 
         <!-- Left and right controls -->
@@ -381,192 +347,50 @@ $active_page = 'home';
             </div>
 
             <div class="fw-grid">
-
-                <div class="fw-card wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="fw-img-box">
-                        <img src="https://courses.finowings.com/images/courses/thumbnails/69a29175a0b24.jpeg" loading="lazy" alt="Course 1" width="400" height="250">
-                    </div>
-                    <div class="fw-content">
-                        <div class="fw-meta">
-                            <span class="fw-badge">Trading</span>
-                            <div class="fw-price">₹1999 <small>₹4999</small></div>
-                        </div>
-                        <h5 class="fw-title">Commodity Trading Master Class</h5>
-                        <p class="fw-desc">This course transforms you from confused beginner to confident trader in gold, silver, and crude oil. Master proven strategies that work in real markets, not just theory books.</p>
-                        <div class="fw-divider"></div>
-
-                        <div class="fw-footer">
-                            <div class="fw-students">
-                                <i class="fa fa-user-graduate"></i> 2,828 Students
+                <?php
+                if (mysqli_num_rows($home_banners) > 0) {
+                    while ($hb = mysqli_fetch_array($home_banners)) {
+                ?>
+                        <div class="fw-card wow fadeInUp" data-wow-delay="<?php echo $hb['delay']; ?>s">
+                            <div class="fw-img-box">
+                                <img src="admin/media/<?php echo $hb['image']; ?>" loading="lazy" alt="<?php echo $hb['heading']; ?>" width="400" height="250">
                             </div>
-                            <div class="fw-rating">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                                <span>(4.8/5)</span>
-                            </div>
-                        </div>
-                        <a href="https://courses.finowings.com/mukul-agrawal-courses/enroll/16/0/recorded" target="_blank" class="fw-btn">Enroll Now</a>
-                    </div>
-                </div>
+                            <div class="fw-content">
+                                <div class="fw-meta">
+                                    <?php if ($hb['badge_text'] != '') { ?>
+                                        <span class="fw-badge"><?php echo $hb['badge_text']; ?></span>
+                                    <?php } ?>
+                                    <div class="fw-price"><?php echo $hb['sale_price']; ?> <small><?php echo $hb['price']; ?></small></div>
+                                </div>
+                                <h5 class="fw-title"><?php echo $hb['heading']; ?></h5>
+                                <p class="fw-desc"><?php echo $hb['description']; ?></p>
 
-                <div class="fw-card wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="fw-img-box">
-                        <img src="https://courses.finowings.com/images/courses/thumbnails/69a2918d25b72.jpeg" loading="lazy" alt="Course 2" width="400" height="250">
-                    </div>
-                    <div class="fw-content">
-                        <div class="fw-meta">
-                            <span class="fw-badge">Strategy</span>
-                            <div class="fw-price">₹4999 <small>₹9999</small></div>
-                        </div>
-                        <h5 class="fw-title">Stock Market Crash Course - 6 Winning Strategies, 15 Years Proven</h5>
-                        <p class="fw-desc">Learn 6 battle-tested strategies that turn market chaos into profit opportunities. Protect your portfolio and sleep peacefully even during the worst market storms.</p>
-                        <div class="fw-divider"></div>
+                                <div class="fw-divider"></div>
 
-                        <div class="fw-footer">
-                            <div class="fw-students">
-                                <i class="fa fa-user-graduate"></i> 1,982 Students
-                            </div>
-                            <div class="fw-rating">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <span>(5.0/5)</span>
+                                <div class="fw-footer">
+                                    <div class="fw-students">
+                                        <i class="fa fa-user-graduate"></i> <?php echo $hb['students_count']; ?>
+                                    </div>
+                                    <div class="fw-rating">
+                                        <?php
+                                        // Simple star display logic (can be made more robust)
+                                        for ($s = 1; $s <= 5; $s++) {
+                                            echo '<i class="fas fa-star"></i>';
+                                        }
+                                        ?>
+                                        <span><?php echo $hb['rating']; ?></span>
+                                    </div>
+                                </div>
+                                <a href="<?php echo $hb['link']; ?>" target="_blank" class="fw-btn">Enroll Now</a>
                             </div>
                         </div>
-                        <a href="https://courses.finowings.com/mukul-agrawal-courses/enroll/17/0/recorded" target="_blank" class="fw-btn">Enroll Now</a>
-                    </div>
-                </div>
-
-                <div class="fw-card wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="fw-img-box">
-                        <img src="https://courses.finowings.com/images/courses/thumbnails/69a291a405a6a.jpeg" loading="lazy" alt="Course 3" width="400" height="250">
-                    </div>
-                    <div class="fw-content">
-                        <div class="fw-meta">
-                            <span class="fw-badge">Analysis</span>
-                            <div class="fw-price">₹7,999 <small>₹9,999</small></div>
-                        </div>
-                        <h5 class="fw-title">Complete Fundamental Analysis</h5>
-                        <p class="fw-desc">Decode balance sheets, P/E ratios, and company valuations like a pro investor. Discover multi-bagger stocks before the crowd and build wealth that lasts generations.</p>
-
-                        <div class="fw-divider"></div>
-
-                        <div class="fw-footer">
-                            <div class="fw-students">
-                                <i class="fa fa-user-graduate"></i> 3,164 Students
-                            </div>
-                            <div class="fw-rating">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                                <span>(4.2/5)</span>
-                            </div>
-                        </div>
-                        <a href="https://courses.finowings.com/stock-market-courses-recorded-detail/complete-fundamental-analysis-course" target="_blank" class="fw-btn">Enroll Now</a>
-                    </div>
-                </div>
-
-                <div class="fw-card wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="fw-img-box">
-                        <img src="https://courses.finowings.com/images/courses/thumbnails/69a291bf99b5e.jpeg" loading="lazy" alt="Course 4" width="400" height="250">
-                    </div>
-                    <div class="fw-content">
-                        <div class="fw-meta">
-                            <span class="fw-badge">Options</span>
-                            <div class="fw-price">₹4999 <small>₹6999</small></div>
-                        </div>
-                        <h5 class="fw-title">Complete Option Trading Master</h5>
-                        <p class="fw-desc">Unlock the secrets of Greeks, hedging, and consistent income generation with 3 months of expert mentorship. Transform complex options into your personal ATM machine.</p>
-
-                        <div class="fw-divider"></div>
-
-                        <div class="fw-footer">
-                            <div class="fw-students">
-                                <i class="fa fa-user-graduate"></i> 3,236 Students
-                            </div>
-                            <div class="fw-rating">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                                <span>(4.7/5)</span>
-                            </div>
-                        </div>
-                        <a href="https://courses.finowings.com/mukul-agrawal-courses/enroll/19/0/recorded" target="_blank" class="fw-btn">Enroll Now</a>
-                    </div>
-                </div>
-
-                <div class="fw-card wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="fw-img-box">
-                        <img src="https://courses.finowings.com/images/courses/thumbnails/69a2920bd67ea.jpeg" loading="lazy" alt="Course 5" width="400" height="250">
-                    </div>
-                    <div class="fw-content">
-                        <div class="fw-meta">
-                            <span class="fw-badge">Combo</span>
-                            <div class="fw-price">₹19,999 <small>₹22,999</small></div>
-                        </div>
-                        <h5 class="fw-title">Special Combo of Fundamental Analysis, Technical Analysis and Options Trading – Recorded</h5>
-                        <p class="fw-desc">Get the complete trader's arsenal - technical analysis, fundamentals, and options - in one power-packed bundle. Become the complete trader the market respects and rewards.</p>
-
-                        <div class="fw-divider"></div>
-
-                        <div class="fw-footer">
-                            <div class="fw-students">
-                                <i class="fa fa-user-graduate"></i> 5,188 Students
-                            </div>
-                            <div class="fw-rating">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <span>(5.0/5)</span>
-                            </div>
-                        </div>
-                        <a href="https://courses.finowings.com/mukul-agrawal-courses/enroll/46/0/combo" target="_blank" class="fw-btn">Enroll Now</a>
-                    </div>
-                </div>
-
-                <div class="fw-card wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="fw-img-box">
-                        <img src="https://courses.finowings.com/images/live/thumbnails/69a54926a9501.jpeg" loading="lazy" alt="live-class" width="400" height="250">
-                    </div>
-                    <div class="fw-content">
-                        <div class="fw-meta">
-                            <span class="fw-badge">Live Class</span>
-                            <div class="fw-price">₹17999 <small>₹22999</small></div>
-                        </div>
-                        <h5 class="fw-title">10th March Technical Analysis (Live+Rec) 2026</h5>
-                        <p class="fw-desc">No experience needed — anyone can start stock market trading.
-                            Learn smart, risk-managed strategies with Dr. Mukul Agrawal.</p>
-
-                        <div class="fw-divider"></div>
-
-                        <div class="fw-footer">
-                            <div class="fw-students">
-                                <i class="fa fa-user-graduate"></i> 30k+ Students
-                            </div>
-                            <div class="fw-rating">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <span>(4.9/5)</span>
-                            </div>
-                        </div>
-                        <a href="https://courses.finowings.com/stock-market-courses-live-detail/10th-march-technical-analysis-liverec-2026" target="_blank" class="fw-btn">Enroll Now</a>
-                    </div>
-                </div>
-
+                <?php
+                    }
+                } else {
+                    // Fallback or empty message
+                    echo "<p class='text-center w-100'>No banners found. Please add them from the admin panel.</p>";
+                }
+                ?>
             </div>
         </div>
     </section>

@@ -68,8 +68,21 @@ include('sidebar.php');
         <!-- Info boxes -->
 		<p>&nbsp;</p>
       
-   <p align="left"><font color="#000000"><b> Slider Image : </b></font>&nbsp;&nbsp;&nbsp;
-	<input  type="file" style="width: 500px;" name="fileToUpload1" required> </input></p>	
+  <div class="form-group text-left" style="width: 500px;">
+    <label style="color:black;">Banner Link:</label>
+    <input type="text" name="link" class="form-control" placeholder="URL to redirect">
+  </div>
+  <div class="form-group text-left" style="width: 500px;">
+    <label style="color:black;">Slider Image:</label>
+    <input type="file" name="fileToUpload1" class="form-control" required>
+  </div>
+  <div class="form-group text-left" style="width: 500px;">
+    <label style="color:black;">Status:</label>
+    <select name="status" class="form-control">
+      <option value="active">Active</option>
+      <option value="inactive">Inactive</option>
+    </select>
+  </div>
 
  
 

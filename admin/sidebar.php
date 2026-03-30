@@ -107,17 +107,16 @@ if ($_SESSION['user']['username'] == 'finoadmin') {
             <ul class="nav nav-treeview">
               <!--<li class="nav-item">
                 <a href="homeslider_list.php" class="nav-link">
-                  <i class="fa fa-cog"></i>&nbsp;
-                  <p>Manage Main Slider</p>
-                </a>
-              </li>
-			  
-			   <li class="nav-item">
-                <a href="cwws-list.php" class="nav-link">
-                  <i class="fa fa-cog"></i>&nbsp;
-                  <p>Manage CWWS Records</p>
+                  <i class="fa fa-image"></i>&nbsp;
+                  <p>Manage Top Slider</p>
                 </a>
               </li>-->
+              <li class="nav-item">
+                <a href="homebanners_list.php" class="nav-link">
+                  <i class="fa fa-th-large"></i>&nbsp;
+                  <p>Manage Front Page Banners</p>
+                </a>
+              </li>
               <li class="nav-item">
                 <a href="webinar_list.php" class="nav-link">
                   <i class="fa fa-cog"></i>&nbsp;
