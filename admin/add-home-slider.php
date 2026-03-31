@@ -42,59 +42,74 @@ include('sidebar.php');
 
 </style>
   <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
+  <div class="content-wrapper" style="background: #f4f6f9;">
     <!-- Content Header (Page header) -->
     <div class="content-header">
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-           
+            <h1 class="m-0 text-dark">Add New Home Slider</h1>
           </div><!-- /.col -->
-         <!-- /.col -->
+          <div class="col-sm-6 text-right">
+             <a href="homeslider_list.php" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> Back to List</a>
+          </div>
         </div><!-- /.row -->
       </div><!-- /.container-fluid -->
     </div>
     <!-- /.content-header -->
 
     <!-- Main content -->
-    <div align="center">
-        <a href="" class="btn btn-success"><i class="fa fa-download"></i> Add New Slider Image</a> 
-    </div>
-	
-	<br>
-	<div align="center">
-	<section class="content" style="border: 1px solid white; padding-left:30px; width: 50%; background:#FFFFFF;">
-      <form method="post" action="addhomeslider.php" enctype="multipart/form-data">
-        <!-- Info boxes -->
-		<p>&nbsp;</p>
-      
-  <div class="form-group text-left" style="width: 500px;">
-    <label style="color:black;">Banner Link:</label>
-    <input type="text" name="link" class="form-control" placeholder="URL to redirect">
-  </div>
-  <div class="form-group text-left" style="width: 500px;">
-    <label style="color:black;">Slider Image:</label>
-    <input type="file" name="fileToUpload1" class="form-control" required>
-  </div>
-  <div class="form-group text-left" style="width: 500px;">
-    <label style="color:black;">Status:</label>
-    <select name="status" class="form-control">
-      <option value="active">Active</option>
-      <option value="inactive">Inactive</option>
-    </select>
-  </div>
+    <section class="content">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="card card-outline card-primary shadow-lg">
+              <div class="card-header bg-white">
+                <h3 class="card-title" style="color: #273158; font-weight: bold;">
+                  <i class="fas fa-image mr-2"></i> Slider Details
+                </h3>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body" style="background: #ffffff; color: #333;">
+                <form method="post" action="addhomeslider.php" enctype="multipart/form-data">
+                  
+                  <div class="form-group">
+                    <label for="link" style="color: #273158; font-weight: 600;">Banner Link (URL):</label>
+                    <input type="text" name="link" id="link" class="form-control" placeholder="https://example.com/your-target-page" style="border-radius: 8px;">
+                    <small class="text-muted">Where should the slider take the user when clicked?</small>
+                  </div>
 
- 
+                  <div class="form-group mt-4">
+                    <label for="fileToUpload1" style="color: #273158; font-weight: 600;">Slider Image:</label>
+                    <div class="custom-file">
+                      <input type="file" name="fileToUpload1" id="fileToUpload1" class="form-control" required style="border-radius: 8px; height: auto; padding: 10px;">
+                    </div>
+                    <small class="text-muted">Recommended size: 1920x600 pixels.</small>
+                  </div>
 
-		<p><input type="submit" name="submit" value="Add Slider Image" style="background: #999999;"></button>
-      
-    </form>
+                  <div class="form-group mt-4">
+                    <label for="status" style="color: #273158; font-weight: 600;">Status:</label>
+                    <select name="status" id="status" class="form-control" style="border-radius: 8px;">
+                      <option value="active">Active (Visible on Homepage)</option>
+                      <option value="inactive">Inactive (Hidden)</option>
+                    </select>
+                  </div>
+
+                  <div class="text-center mt-5">
+                    <button type="submit" name="submit" class="btn btn-primary btn-lg px-5 shadow" style="background: #273158; border: none; border-radius: 30px; font-weight: 600; min-width: 250px;">
+                      <i class="fas fa-save mr-2"></i> Save & Publish Slider
+                    </button>
+                  </div>
+                  
+                </form>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+        </div>
+      </div><!-- /.container-fluid -->
     </section>
-	</div>
-	
-	
-	
-
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
