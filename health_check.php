@@ -1,5 +1,4 @@
 <?php
-require_once <?php
 /**
  * Health Check Script for Finowings Website
  * This script checks if the website and database are responding correctly

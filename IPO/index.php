@@ -16,10 +16,10 @@ $active_page = 'ipo';
 
 <head>
 	<meta charset="utf-8">
-	<title>Upcoming IPO 2025 | Main Board & SME | Review & Today GMP</title>
+	<title>Upcoming IPO 2026 | Main Board & SME | Review & Today GMP</title>
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-	<meta content="Upcoming IPO 2025, Grey Market Premium, Review, Valuations, Opening Date, Peer comparison, Company Financial and Dividend Policy" name="keywords">
-	<meta content=" Check the List of IPOs in 2025 in India, Grey Market Premium, Review, Valuations, Opening Date, Peer comparison, Company Financial & Dividend Policy." name="description">
+	<meta content="Upcoming IPO 2026, Grey Market Premium, Review, Valuations, Opening Date, Peer comparison, Company Financial and Dividend Policy" name="keywords">
+	<meta content="Planning to invest in IPOs? Check upcoming IPOs in India 2026 with GMP, reviews, dates, and detailed company analysis." name="description">
 	<link rel="canonical" href="https://www.finowings.com/IPO/" />
 
 	<!-- Favicon -->
@@ -494,6 +494,31 @@ $active_page = 'ipo';
 			border-color: #cf9c0a !important;
 			color: #ffffff !important;
 		}
+
+		/* IPO Status Circles */
+		.status-circle {
+			display: inline-block;
+			width: 22px;
+			height: 22px;
+			border-radius: 50%;
+			vertical-align: middle;
+			margin-top: -2px;
+		}
+
+		.upcoming-circle {
+			background-color: #FAF9D0;
+			border: 1px solid #dcdbb1;
+		}
+
+		.ongoing-circle {
+			background-color: #90EE90;
+			border: 1px solid #7cd47c;
+		}
+
+		.closed-circle {
+			background-color: #E9F9FF;
+			border: 1px solid #d1edf8;
+		}
 	</style>
 	<!-- FAQ CSS Ends -->
 
@@ -522,14 +547,18 @@ $active_page = 'ipo';
 
 			<div class="text-center mt-2">
 				<h6 class="section-title bg-white text-center text-primary px-3">IPO</h6>
-				<h1 class="mb-1">Upcoming IPOs</h1><br />
+				<h1 class="mb-1">Upcoming IPOs 2026: Check Latest IPO List, GMP & Reviews</h1><br />
 				<div class="d-flex justify-content-center"><a class="btn btn-primary btn-sm py-2 px-3 mt-2 shadow rounded-pill mx-1" href="https://www.finowings.com/Main-Board-IPO/">Main Board IPO</a><a class="btn btn-primary btn-sm py-2 px-3 mt-2 shadow rounded-pill mx-1" href="https://www.finowings.com/SME-IPO/">SME IPO</a><a class="btn btn-primary btn-sm py-2 px-3 mt-2 shadow rounded-pill mx-1" href="https://www.finowings.com/IPO/live-ipo-gmp.php">Current GMP</a></div>
 			</div>
 
 
 			<br />
 			<div class="row">
-				<p align="center" style="font-size:12px; font-weight:bold;"><img src="upcoming.png" />&nbsp;Upcoming&nbsp;<img src="ongoing.png" />&nbsp;Ongoing&nbsp;<img src="closed.png" />&nbsp;Closed</p>
+				<p align="center" style="font-size:14px; font-weight:bold;">
+					<span class="status-circle upcoming-circle"></span>&nbsp;Upcoming&nbsp;&nbsp;&nbsp;
+					<span class="status-circle ongoing-circle"></span>&nbsp;Ongoing&nbsp;&nbsp;&nbsp;
+					<span class="status-circle closed-circle"></span>&nbsp;Closed
+				</p>
 				<div class="col-md-6">
 					<div class="card">
 						<div class="card-body">

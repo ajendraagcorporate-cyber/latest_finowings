@@ -11,6 +11,7 @@ $t = "UPDATE dematlinks_counter SET totalview='".$counter."' WHERE view_type='pa
 if(mysqli_query($link, $t))
 {
 header("Location: https://paytmmoney.onelink.me/9L59/mfoszu1l");	
+}
 ?>
 $link = $con;
 //check for count
@@ -19,8 +20,9 @@ $result = mysqli_query($link, $query);
 $rows = mysqli_fetch_array($result); 
 $counter = $rows['totalview']; 
 $counter = $counter + 1;
-$t = "UPDATE dematlinks_counter SET totalview='".$counter."' WHERE view_type='paytm'"; 
+$t = "UPDATE dematlinks_counter SET totalview='".$counter."' WHERE view_type='paytm'";   
 if(mysqli_query($link, $t))
 {
 header("Location: https://paytmmoney.onelink.me/9L59/mfoszu1l");	
+}
 ?>

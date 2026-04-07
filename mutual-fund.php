@@ -29,10 +29,10 @@ $active_page = 'mutual-fund';
 
 <head>
     <meta charset="utf-8">
-    <title>Best Mutual Funds To Invest In 2025 | SIP & Lumpsum Investment</title>
+    <title>Best Mutual Funds To Invest In 2026 | SIP & Lumpsum Investment</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="mutual funds, mutual funds in 2025, index funds, sip investment, mutual fund investment, mutual funds to invest in, best mutual funds, best sip to invest, top mutual funds, best mutual fund to invest now, best Lumpsum to invest" name="keywords">
-    <meta content="Invest in the Best Mutual Funds in 2025 with Zero commission and Zero Extra charges for the Bright Future. Start with Just 100 Rs, Start Investing Now!" name="description">
+    <meta content="mutual funds, mutual funds in 2026, index funds, sip investment, mutual fund investment, mutual funds to invest in, best mutual funds, best sip to invest, top mutual funds, best mutual fund to invest now, best Lumpsum to invest" name="keywords">
+    <meta content="Invest in the Best Mutual Funds in 2026 with Zero commission and Zero Extra charges for the Bright Future. Start with Just 100 Rs, Start Investing Now!" name="description">
     <link rel="canonical" href="https://www.finowings.com/mutual-fund.php" />
 
     <!-- Favicon -->

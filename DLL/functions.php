@@ -532,7 +532,7 @@ function getallDematQues()
 function getMutualFundBlogs()
 {
     $link = getDB();
-    $q = mysqli_query($link, "SELECT * FROM blog where cat_id='12' and is_publish='Yes' order by updated_date desc limit 0,3");
+    $q = mysqli_query($link, "SELECT * FROM blog where cat_id='12' and is_publish='Yes' order by updated_date desc limit 0,4");
     return $q;
 }
 

@@ -11,6 +11,7 @@ $t = "UPDATE dematlinks_counter SET totalview='".$counter."' WHERE view_type='an
 if(mysqli_query($link, $t))
 {
 header("Location: https://angel-one.onelink.me/Wjgr/9elwrdzd");	
+}
 ?>
 $link = $con;
 //check for count
@@ -23,4 +24,5 @@ $t = "UPDATE dematlinks_counter SET totalview='".$counter."' WHERE view_type='an
 if(mysqli_query($link, $t))
 {
 header("Location: https://angel-one.onelink.me/Wjgr/9elwrdzd");	
+}
 ?>

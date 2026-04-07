@@ -19,7 +19,7 @@ $active_page = 'ipo';
   <title>Live IPO GMP Today - Latest & Current IPO GMP Updates</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="live ipo gmp, ipo gmp live, current ipo gmp, all ipo gmp, latest ipo gmp, new ipo gmp, live gmp ipo, upcoming ipo gmp, ipo grey market premium, ipo gmp today (live)" name="keywords">
-  <meta content="Get live IPO GMP today, current updates, and trends for upcoming and all IPO GMPs. Stay informed with real-time IPO GMP information." name="description">
+  <meta content="Track IPO GMP today with live grey market premium updates, trends, and upcoming IPO insights. Don’t miss the latest IPO opportunities." name="description">
 
   <meta property="og:title" content="Live IPO GMP Today - Latest & Current IPO GMP Updates">
   <meta property="og:site_name" content="Finowings">
@@ -249,6 +249,31 @@ $active_page = 'ipo';
       background: #cf9c0a;
       color: #fff;
     }
+
+    /* IPO Status Circles */
+    .status-circle {
+      display: inline-block;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      vertical-align: middle;
+      margin-top: -2px;
+    }
+
+    .upcoming-circle {
+      background-color: #FAF9D0;
+      border: 1px solid #dcdbb1;
+    }
+
+    .ongoing-circle {
+      background-color: #90EE90;
+      border: 1px solid #7cd47c;
+    }
+
+    .closed-circle {
+      background-color: #E9F9FF;
+      border: 1px solid #d1edf8;
+    }
   </style>
   <!-- FAQ CSS Ends -->
 
@@ -276,8 +301,12 @@ $active_page = 'ipo';
       <br /><br />
       <div class="text-center">
         <h6 class="section-title bg-white text-center text-primary px-3">IPO</h6>
-        <h1 class="mb-3 text-dark">Current IPO GMP</h1>
-        <p align="center" style="font-size:12px; font-weight:bold;"><img src="upcoming.png" />&nbsp;Upcoming&nbsp;<img src="ongoing.png" />&nbsp;Ongoing&nbsp;<img src="closed.png" />&nbsp;Closed</p>
+        <h1 class="mb-3 text-dark">Current IPO GMP Today – Live Grey Market Premium Updates</h1>
+        <p align="center" style="font-size:14px; font-weight:bold;">
+          <span class="status-circle upcoming-circle"></span>&nbsp;Upcoming&nbsp;&nbsp;&nbsp;
+          <span class="status-circle ongoing-circle"></span>&nbsp;Ongoing&nbsp;&nbsp;&nbsp;
+          <span class="status-circle closed-circle"></span>&nbsp;Closed
+        </p>
 
         <div class="main mt-2" align="center">
 

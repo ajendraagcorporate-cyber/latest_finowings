@@ -11,6 +11,7 @@ $t = "UPDATE dematlinks_counter SET totalview='".$counter."' WHERE view_type='sa
 if(mysqli_query($link, $t))
 {
 header("Location: https://sam-co.in/aDM4KzhPQkJnZllYdGFveEJuWituUT09");	
+}
 ?>
 $link = $con;
 //check for count
@@ -23,4 +24,5 @@ $t = "UPDATE dematlinks_counter SET totalview='".$counter."' WHERE view_type='sa
 if(mysqli_query($link, $t))
 {
 header("Location: https://sam-co.in/aDM4KzhPQkJnZllYdGFveEJuWituUT09");	
+}
 ?>

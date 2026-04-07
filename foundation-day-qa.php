@@ -11,6 +11,7 @@ $t = "UPDATE dematlinks_counter SET totalview='".$counter."' WHERE view_type='fo
 if(mysqli_query($link, $t))
 {
 header("Location: https://us02web.zoom.us/webinar/register/WN_FL0HRVplS3m4cqSdFrX1zQ");	
+}
 ?>
 $link = $con;
 //check for count
@@ -23,4 +24,5 @@ $t = "UPDATE dematlinks_counter SET totalview='".$counter."' WHERE view_type='fo
 if(mysqli_query($link, $t))
 {
 header("Location: https://us02web.zoom.us/webinar/register/WN_FL0HRVplS3m4cqSdFrX1zQ");	
+}
 ?>

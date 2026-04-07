@@ -25,11 +25,6 @@ if (!(isset($_SESSION['user'])) || $_SESSION['user'] == '') {
       include('sidebar.php');
       ?>
 
-
-
-
-
-
       <!-- Content Wrapper. Contains page content -->
       <div class="content-wrapper" style="background-color: #FFFFFF;">
         <!-- Content Header (Page header) -->
@@ -153,9 +148,6 @@ if (!(isset($_SESSION['user'])) || $_SESSION['user'] == '') {
       </div>
       <!-- /.content-wrapper -->
 
-      <!-- Control Sidebar -->
-
-      <!-- /.control-sidebar -->
 
       <!-- Main Footer -->
       <?php
