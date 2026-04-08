@@ -29,8 +29,11 @@ $active_page = 'mutual-fund';
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mutual Funds New Sections – Finowings</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <title>Top Mutual Funds 2026 for SIP & Lumpsum</title>
+    <meta content="mutual funds, mutual funds in 2026, index funds, sip investment, mutual fund investment, mutual funds to invest in, best mutual funds, best sip to invest, top mutual funds, best mutual fund to invest now, best Lumpsum to invest" name="keywords">
+    <meta content="Start investing in the best mutual funds in India with SIP or lumpsum. Begin with ₹100 and discover top-performing funds for 2026." name="description">
+    <link rel="canonical" href="https://www.finowings.com/mutual-fund.php" />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Nunito:wght@600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -45,39 +48,23 @@ $active_page = 'mutual-fund';
     --light:  #f4f6fb;
     --text:   #2d2d2d;
     --muted:  #6c757d;
-
-    /* Font Families */
-    --font-main: 'Playfair Display', serif;
-    --font-sub: 'Nunito', sans-serif;
-    --font-body: 'DM Sans', sans-serif;
   }
 
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   body {
-    font-family: var(--font-body);
+    font-family: 'DM Sans', sans-serif;
     color: var(--text);
     background: var(--white);
     overflow-x: hidden;
   }
 
-  /* Headings Strategy */
-  h1, .section-title-main {
-    font-family: var(--font-main) !important;
+  h1, h2, .playfair {
+    font-family: 'Playfair Display', serif;
   }
 
-  h2, h3, h4, h5, h6 {
-    font-family: var(--font-sub);
-    font-weight: 700;
-  }
-
-  p, a, span, li, label, input, textarea, select {
-    font-family: var(--font-body);
-  }
-
-  .btn, [class*="btn-"], .fw-btn {
-    font-family: var(--font-body) !important;
-    font-weight: 600;
+  h3, h4, h5, h6, .nunito {
+    font-family: 'Nunito', sans-serif;
   }
 
   /* ===== HERO BANNER ===== */
@@ -120,7 +107,7 @@ $active_page = 'mutual-fund';
     margin-bottom: 22px;
   }
   .fw-hero h1 {
-    font-family: var(--font-main);
+    font-family: 'Playfair Display', serif;
     font-size: clamp(2rem, 5vw, 3.4rem);
     color: var(--white);
     line-height: 1.2;
@@ -179,7 +166,7 @@ $active_page = 'mutual-fund';
     text-align: center;
   }
   .fw-hero-stat .num {
-    font-family: var(--font-sub);
+    font-family: 'Playfair Display', serif;
     font-size: 2rem;
     color: var(--gold);
     font-weight: 900;
@@ -217,7 +204,7 @@ $active_page = 'mutual-fund';
     margin-right: 8px;
   }
   .section-title-main {
-    font-family: var(--font-main);
+    font-family: 'Playfair Display', serif;
     font-size: clamp(1.7rem, 4vw, 2.5rem);
     color: var(--navy);
     margin-bottom: 14px;
@@ -482,7 +469,7 @@ $active_page = 'mutual-fund';
     bottom: -80px; right: -60px;
   }
   .fw-how-cta-box h3 {
-    font-family: var(--font-main);
+    font-family: 'Playfair Display', serif;
     color: var(--white);
     font-size: 1.6rem;
     margin-bottom: 14px;
@@ -555,7 +542,7 @@ $active_page = 'mutual-fund';
     padding: 36px 30px;
   }
   .fw-testimonial-box h5 {
-    font-family: var(--font-main);
+    font-family: 'Playfair Display', serif;
     color: var(--navy);
     font-size: 1.1rem;
     margin-bottom: 24px;
@@ -600,7 +587,7 @@ $active_page = 'mutual-fund';
     top: -150px; right: -80px;
   }
   .fw-cta-banner h2 {
-    font-family: var(--font-main);
+    font-family: 'Playfair Display', serif;
     color: var(--white);
     font-size: clamp(1.6rem, 4vw, 2.4rem);
     margin-bottom: 14px;
@@ -729,7 +716,7 @@ $active_page = 'mutual-fund';
  <!--   Slider end-->
  <section class="fw-hero">
   <div class="fw-hero-badge"><i class="fas fa-award" style="margin-right:6px;"></i> #1 Trusted Investment Platform in India</div>
-  <h1 class="anim d1">Mutual Funds in India –<br><span>Start SIP & Invest Smart</span></h1>
+  <h1 class="anim d1">Mutual Funds in India –<br><span>Start SIP & Invest Smart</span></h1> 
   <p class="anim d2">Start your journey to invest in mutual funds with confidence. Choose the right funds, compare options, and build wealth through SIP or lumpsum — beginner-friendly guidance, zero extra charges.</p>
   <div class="fw-hero-btns anim d3">
     <a href="https://www.finowings.com/buy-best-mutual-fund/" class="btn-primary-fw">
@@ -752,7 +739,7 @@ $active_page = 'mutual-fund';
 <section class="fw-what">
   <div class="fw-what-inner container-fw">
     <div class="fw-what-visual anim d1">
-      <h4 style="color:var(--white); font-family: var(--font-main); font-size:1.3rem; margin-bottom:28px; position:relative;">How Mutual Funds Work</h4>
+      <h4 style="color:var(--white); font-family:'Playfair Display',serif; font-size:1.3rem; margin-bottom:28px; position:relative;">How Mutual Funds Work</h4>
       <div class="fw-flow-step">
         <div class="fw-flow-num">1</div>
         <div class="fw-flow-text">
