@@ -32,13 +32,28 @@ $home_banners = getHomeBanners();
     <title>Best Online Course on Stock Market | Learn Share Market Analysis</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <meta content="Stock Market Course Online, Stock Market Trading Training Online, Share Market Course for Beginners in India, Trading Classes for Beginners, technical analysis full course, Best Technical Analysis Course free, Best Course for Stock Trading" name="keywords">
-    <meta content="Looking to start stock market traders finowings is perfect place. we provide basic to advance level stock market training with experience trainer & mentors." name="description">
+    <meta content="If you are just starting out, our stock market courses in Lucknow are designed especially for beginners. At Finowings, we explain everything in a simple and easy way—from basic concepts to understanding how the market works. You don’t need any prior knowledge. Step by step, you’ll learn how to invest, manage risk, and build confidence to take your first steps in the stock market without confusion." name="keywords">
+    <meta content="Want to start stock market trading? Join Finowings and learn from expert mentors with live market training from beginner to advanced level." name="description">
     <meta name="facebook-domain-verification" content="14iafep58gygrb14bbtvqgcuqkaxlw" />
     <meta name="msvalidate.01" content="C3176AD48EB90D77FBFE4582A52C75E7" />
     <link rel="canonical" href="https://www.finowings.com" />
 
-
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Finowings - Best Stock Market Course in Lucknow",
+      "alternateName": "Finowings",
+      "url": "https://www.finowings.com/",
+      "logo": "https://www.finowings.com/img/finowings-logo.png",
+      "sameAs": [
+        "https://www.facebook.com/finowings/",
+        "https://twitter.com/finowings?t=6z2cPaYoEP8y8N-ISPD6Zg&s=08",
+        "https://www.instagram.com/finowings/",
+        "https://www.linkedin.com/company/finowings/mycompany/"
+      ]
+    }
+    </script>
 
     <script type="application/ld+json">
         {
@@ -85,6 +100,433 @@ $home_banners = getHomeBanners();
             ]
         }
     </script>
+    
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=GT-NNMVMTGS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'GT-NNMVMTGS');
+</script>
+    
+    <!--manthan seo -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Commodity Trading Master Class",
+  "description": "Master commodity trading in gold, silver, and crude oil. Transform from confused beginner to confident trader.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Finowings Training Academy",
+    "url": "https://www.finowings.com"
+  },
+  "instructor": {
+    "@type": "Person",
+    "name": "Dr. Mukul Agrawal"
+  },
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT20H"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1999,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.8,
+    "reviewCount": 2828,
+    "bestRating": 5
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Technical Analysis (Live + Recorded)",
+  "description": "No experience needed — anyone can start stock market trading. Learn smart, risk-managed strategies with Dr. Mukul Agrawal. Master technical analysis through live + recorded sessions.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Finowings Training Academy",
+    "url": "https://www.finowings.com"
+  },
+  "instructor": {
+    "@type": "Person",
+    "name": "Dr. Mukul Agrawal"
+  },
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "startDate": "2026-04-10"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 17999,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.9,
+    "reviewCount": 30000,
+    "bestRating": 5
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Stock Market Crash Course - 6 Winning Strategies, 15 Years Proven",
+  "description": "Learn 6 battle-tested strategies that turn market chaos into profit opportunities. Protect your portfolio and sleep peacefully. Proven over 15 years.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Finowings Training Academy",
+    "url": "https://www.finowings.com"
+  },
+  "instructor": {
+    "@type": "Person",
+    "name": "Dr. Mukul Agrawal"
+  },
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 4999,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5.0,
+    "reviewCount": 1982,
+    "bestRating": 5
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Complete Fundamental Analysis",
+  "description": "Decode balance sheets, P/E ratios, and company valuations like a pro investor. Discover multi-bagger stocks before the market does.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Finowings Training Academy",
+    "url": "https://www.finowings.com"
+  },
+  "instructor": {
+    "@type": "Person",
+    "name": "Dr. Mukul Agrawal"
+  },
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 7999,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.2,
+    "reviewCount": 3164,
+    "bestRating": 5
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Complete Option Trading Master",
+  "description": "Unlock the secrets of Greeks, hedging, and consistent income generation with 3 months of expert mentorship.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Finowings Training Academy",
+    "url": "https://www.finowings.com"
+  },
+  "instructor": {
+    "@type": "Person",
+    "name": "Dr. Mukul Agrawal"
+  },
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 4999,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.7,
+    "reviewCount": 3236,
+    "bestRating": 5
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Special Combo of Fundamental Analysis, Technical Analysis and Options Trading",
+  "description": "Complete Combo Pack - Fundamental Analysis + Technical Analysis + Options Trading. Master the full spectrum of stock market trading with expert guidance.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Finowings Training Academy",
+    "url": "https://www.finowings.com"
+  },
+  "instructor": {
+    "@type": "Person",
+    "name": "Dr. Mukul Agrawal"
+  },
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 19999,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5.0,
+    "reviewCount": 5188,
+    "bestRating": 5
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Special Combo of Fundamental Analysis, Technical Analysis and Options Trading (Recorded)",
+  "description": "Best value combo package including Fundamental Analysis, Technical Analysis, and Options Trading courses. Complete recorded access with expert guidance from Dr. Mukul Agrawal.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Finowings Training Academy",
+    "url": "https://www.finowings.com"
+  },
+  "instructor": {
+    "@type": "Person",
+    "name": "Dr. Mukul Agrawal"
+  },
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "P90D"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 19999,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5.0,
+    "reviewCount": 5188,
+    "bestRating": 5
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Combo of Fundamental Analysis and Option Trading (Recorded)",
+  "description": "Powerful recorded combo of Complete Fundamental Analysis and Complete Option Trading Master Class. Learn both fundamental and options trading with Dr. Mukul Agrawal.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Finowings Training Academy",
+    "url": "https://www.finowings.com"
+  },
+  "instructor": {
+    "@type": "Person",
+    "name": "Dr. Mukul Agrawal"
+  },
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "P90D"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 10999,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Combo of Technical Analysis and Option Trading (Recorded)",
+  "description": "Recorded combo package of Technical Analysis and Complete Option Trading. Master technical charts and options strategies with Dr. Mukul Agrawal.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Finowings Training Academy",
+    "url": "https://www.finowings.com"
+  },
+  "instructor": {
+    "@type": "Person",
+    "name": "Dr. Mukul Agrawal"
+  },
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "P90D"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 11999,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Combo of Fundamental Analysis and Technical Analysis Course (Recorded)",
+  "description": "Recorded combo of Complete Fundamental Analysis and Technical Analysis. Learn both fundamental valuation and technical charting with Dr. Mukul Agrawal.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Finowings Training Academy",
+    "url": "https://www.finowings.com"
+  },
+  "instructor": {
+    "@type": "Person",
+    "name": "Dr. Mukul Agrawal"
+  },
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "P90D"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 14999,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Universe of Trading Strategies - Bundle of 15 Strategies",
+  "description": "Massive bundle containing 15 proven trading strategies. Complete recorded access to master multiple ways to profit in the stock market with Dr. Mukul Agrawal.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Finowings Training Academy",
+    "url": "https://www.finowings.com"
+  },
+  "instructor": {
+    "@type": "Person",
+    "name": "Dr. Mukul Agrawal"
+  },
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "P90D"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 599,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Trader’s Secret Club - Elite Membership",
+  "description": "Exclusive premium membership for traders who want daily market updates, expert insights, and trading recommendations without watching the market all day. Perfect for busy professionals interested in stock market trading.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Finowings Training Academy",
+    "url": "https://www.finowings.com"
+  },
+  "instructor": {
+    "@type": "Person",
+    "name": "Dr. Mukul Agrawal"
+  },
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online"
+  },
+  "offers": [
+    {
+      "@type": "Offer",
+      "price": 799,
+      "priceCurrency": "INR",
+      "availability": "https://schema.org/InStock",
+      "name": "Monthly Plan",
+      "description": "30 Days Validity"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["EducationalOrganization", "LocalBusiness"],
+  "name": "Finowings Training Academy",
+  "image": "https://www.finowings.com/img/finowings-logo.webp",
+  "url": "https://www.finowings.com/stock-market-classes-lucknow/",
+  "telephone": "+91-9708094321",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "C-1, Bank of Baroda, Sector-M, Mama Chauraha, Kursi Road",
+    "addressLocality": "Lucknow",
+    "addressRegion": "Uttar Pradesh",
+    "postalCode": "226022",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 26.8467,
+    "longitude": 80.9462
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+    "opens": "09:00",
+    "closes": "18:00"
+  }],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.8,
+    "reviewCount": 50000
+  },
+  "priceRange": "₹1999 - ₹22999",
+  "description": "Stock market training academy in Lucknow offering live and recorded courses in technical analysis, options trading, and fundamental analysis by Dr. Mukul Agrawal, Guinness World Record holder."
+}
+</script>
+
+    <!--manthan seo end-->
 
     <!-- /* Section 9: App Download start - Code with Ajendra */ -->
     <!-- Moved to bottom for performance -->
@@ -337,7 +779,7 @@ $home_banners = getHomeBanners();
             <div class="row g-5 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                     <h6 class="section-title bg-white text-center text-primary px-3">Courses</h6>
-                    <h1 class="mb-2">Start Your Stock Market Journey with Finowings</h1>
+                    <h1 class="mb-2">Start Your Stock Market Training Journey with Finowings</h1>
 
                     <p>New to investing? Learn stocks, IPOs, mutual funds, and trading with easy videos, blogs, and courses designed to build strong financial basics - without confusion.
                     </p>

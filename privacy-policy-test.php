@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Refund & Cancellation Policy - Finowings</title>
+    <title>Privacy Policy</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
-    <meta content="Read Finowings refund and cancellation policy for courses, mentorship, and services. Understand payment terms and important guidelines before enrolling." name="description">
+    <meta content="Learn how Finowings collects, uses, and protects your data, including cookies, user information, and privacy rights." name="description">
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -22,7 +22,8 @@
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-	
+
+
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
@@ -33,9 +34,9 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 	
-	<!-- Refund Policy Page Custom Styles -->
+	<!-- Privacy Policy Page Custom Styles -->
 	<style>
-		/* Refund Policy Page - Clean & Readable Design */
+		/* Privacy Policy Page - Clean & Readable Design */
 		.terms-section {
 			padding: 60px 0;
 			background: #ffffff;
@@ -201,12 +202,12 @@
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">Refund Policy</h1>
+                    <h1 class="display-3 text-white animated slideInDown">Privacy Policy</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
                             
-                            <li class="breadcrumb-item text-white active" aria-current="page">Refund Policy</li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Privacy Policy</li>
                         </ol>
                     </nav>
                 </div>
@@ -262,38 +263,81 @@
     <!-- Service End -->
 
 
-    <!-- Refund Policy Section Start -->
+    <!-- Privacy Policy Section Start -->
     <div class="terms-section">
         <div class="container">
             <div class="terms-container">
                 <div class="terms-header">
-                    <h1>Refund & Cancellation Policy</h1>
+                    <h1>Privacy Policy</h1>
                 </div>
                 
                 <div class="terms-content">
-                    <h2>Payment Terms</h2>
-                    <p>All payments made for training programs, mentorship, newsletters, online courses, and other services are final and non-transferable.</p>
+                    <h2>Introduction</h2>
+                    <p>One of our top priorities at Finowings, accessible from <a href="http://www.finowings.com/">http://www.finowings.com/</a>, is the privacy of our website users. This Privacy Policy document describes the types of information that Finowings collects and records, and how we use it. If you have any questions or require more information about our Privacy Policy, please feel free to contact us.</p>
+                    <p>This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in Finowings. This policy is not applicable to any information collected offline or via channels other than this website.</p>
+                    
+                    <h2>Consent</h2>
+                    <p>By using our website, you hereby consent to our Privacy Policy and agree to its terms.</p>
+                    
+                    <h2>Information We Collect</h2>
+                    <p>The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.</p>
+                    <p>If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and/or attachments you may send us, and any other information you may choose to provide.</p>
+                    <p>When you register for an Account, we may ask for your contact information, including items such as name, company name, address, email address, and telephone number.</p>
+                    
+                    <h2>How We Use Your Information</h2>
+                    <p>We use the information we collect in various ways, including to:</p>
+                    <ul>
+                        <li>Provide, operate, and maintain our website</li>
+                        <li>Improve, personalize, and expand our website</li>
+                        <li>Understand and analyze how you use our website</li>
+                        <li>Develop new products, services, features, and functionality</li>
+                        <li>Communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the website, and for marketing and promotional purposes</li>
+                        <li>Send you emails</li>
+                        <li>Find and prevent fraud</li>
+                    </ul>
+                    
+                    <h2>Log Files</h2>
+                    <p>Finowings follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.</p>
+                    
+                    <h2>Cookies and Web Beacons</h2>
+                    <p>Like any other website, Finowings uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.</p>
+                    
+                    <h2>Advertising Partners</h2>
+                    <p>You may consult this list to find the Privacy Policy for each of the advertising partners of Finowings.</p>
+                    <p>Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on Finowings, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.</p>
+                    <p>Note that Finowings has no access to or control over these cookies that are used by third-party advertisers.</p>
+                    
+                    <h2>Third-Party Privacy Policies</h2>
+                    <p>Finowings's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options. </p>
+                    <p>You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.</p>
 
-                    <h2>Refund Policy</h2>
-                    <p>Finowings follows a strict no-refund policy once the payment is successfully completed. We encourage users to review course details carefully before making a purchase.</p>
-                    <p>Refunds will not be applicable in cases where the user is unable to attend the program or chooses to discontinue after enrollment.</p>
+                    <h2>Data Protection Rights</h2>
+                    <p>We would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:</p>
+                    <ul>
+                        <li><strong>The right to access</strong> – You have the right to request copies of your personal data. We may charge you a small fee for this service.</li>
+                        <li><strong>The right to rectification</strong> – You have the right to request that we correct any information you believe is inaccurate. You also have the right to request that we complete the information you believe is incomplete.</li>
+                        <li><strong>The right to erasure</strong> – You have the right to request that we erase your personal data, under certain conditions.</li>
+                        <li><strong>The right to restrict processing</strong> – You have the right to request that we restrict the processing of your personal data, under certain conditions.</li>
+                        <li><strong>The right to object to processing</strong> – You have the right to object to our processing of your personal data, under certain conditions.</li>
+                        <li><strong>The right to data portability</strong> – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.</li>
+                    </ul>
+                    <p>If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.</p>
+                    
+                    <h2>Children's Information</h2>
+                    <p>Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.</p>
+                    <p>Finowings does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</p>
 
-                    <h2>Cancellation Policy</h2>
-                    <p>Once enrolled, users cannot cancel or transfer their registration to another program or individual.</p>
+                    <h2>Contact Information</h2>
+                    <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at <strong>contact@finowings.com</strong> or through our contact page.</p>
 
-                    <h2>KYC & Data Privacy</h2>
-                    <p>To enroll in our programs, users may be required to provide valid identification such as PAN Card and Aadhaar Card. All personal information is kept confidential and is not shared with any third party.</p>
-
-                    <h2>Copyright & Content Usage</h2>
-                    <p>All study materials, including videos and documents, are the intellectual property of Finowings. Unauthorized sharing, reproduction, or distribution for personal or commercial use is strictly prohibited and may lead to legal action.</p>
-
-                    <h2>Policy Updates</h2>
-                    <p>Finowings reserves the right to modify or update this policy at any time without prior notice.</p>
+                    <h2>Updates to This Policy</h2>
+                    <p>We may update our Privacy Policy from time to time. Thus, we advise you to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately, after they are posted on this page.</p>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Refund Policy Section End -->
+    <!-- Privacy Policy Section End -->
+
 
 
     <!-- Team Start -->
@@ -387,7 +431,7 @@
     <!-- Footer End -->
 
 
-  
+
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>

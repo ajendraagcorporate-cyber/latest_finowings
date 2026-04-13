@@ -23,7 +23,7 @@ function getDB() {
 function getSliderFI()
 {
     $link = getDB();
-    $q = mysqli_query($link, "SELECT * FROM home_slider WHERE status='active' ORDER BY id DESC LIMIT 0,1");
+    $q = mysqli_query($link, "SELECT * FROM home_slider WHERE status='active' ORDER BY updated_date DESC LIMIT 0,1");
     $r = mysqli_fetch_array($q);
     return $r;
 }
@@ -38,7 +38,7 @@ function getHomeBanners()
 function getSliderAI()
 {
     $link = getDB();
-    $q = mysqli_query($link, "SELECT * FROM home_slider WHERE status='active' ORDER BY id DESC LIMIT 1,10");
+    $q = mysqli_query($link, "SELECT * FROM home_slider WHERE status='active' ORDER BY updated_date DESC LIMIT 1,10");
     return $q;
 }
 
